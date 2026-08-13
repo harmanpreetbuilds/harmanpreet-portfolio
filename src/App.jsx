@@ -31,15 +31,30 @@ const External = () => (
 function App() {
   return (
     <div className="portfolio">
+      {/* =====================================================
+          NAVIGATION
+          ===================================================== */}
+
       <header className="nav">
-        <a className="wordmark" href="#top">
+        <a
+          className="wordmark"
+          href="#top"
+        >
           HARMANPREET
         </a>
 
         <nav>
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#work">
+            Work
+          </a>
+
+          <a href="#about">
+            About
+          </a>
+
+          <a href="#contact">
+            Contact
+          </a>
         </nav>
 
         <a
@@ -58,7 +73,10 @@ function App() {
             HERO
             ===================================================== */}
 
-        <section className="hero" id="top">
+        <section
+          className="hero"
+          id="top"
+        >
           <div className="hero-left">
             <p className="micro-label">
               SOFTWARE ENGINEER · INDIA · 2026
@@ -74,12 +92,16 @@ function App() {
 
             <div className="hero-bottom">
               <p className="intro">
-                Backend systems, AI infrastructure and cross-platform
-                products designed around the problems that usually get
-                ignored until production.
+                Backend systems, AI infrastructure and
+                cross-platform products designed around the
+                problems that usually get ignored until
+                production.
               </p>
 
-              <a className="text-link" href="#work">
+              <a
+                className="text-link"
+                href="#work"
+              >
                 See selected work
                 <Arrow />
               </a>
@@ -88,7 +110,9 @@ function App() {
 
           <div className="hero-collage">
             <div className="paper-note note-one">
-              <span>currently obsessed with</span>
+              <span>
+                currently obsessed with
+              </span>
 
               <strong>
                 reliability, sync & AI infrastructure
@@ -106,8 +130,13 @@ function App() {
 
               <div className="dervale-preview-bottom">
                 <div>
-                  <span>ENTERPRISE AI GATEWAY</span>
-                  <h2>Dervale</h2>
+                  <span>
+                    ENTERPRISE AI GATEWAY
+                  </span>
+
+                  <h2>
+                    Dervale
+                  </h2>
                 </div>
 
                 <a
@@ -130,7 +159,9 @@ function App() {
                 <span />
               </div>
 
-              <p>SyncBoard</p>
+              <p>
+                SyncBoard
+              </p>
             </div>
 
             <div className="scribble">
@@ -142,30 +173,62 @@ function App() {
         </section>
 
         {/* =====================================================
-            TECHNOLOGY STRIP
+            TECHNOLOGY MARQUEE
             ===================================================== */}
 
         <section className="marquee-line">
           <div>
-            <span>JAVA</span>
-            <i>✦</i>
+            <span>
+              JAVA
+            </span>
 
-            <span>SPRING BOOT</span>
-            <i>✦</i>
+            <i>
+              ✦
+            </i>
 
-            <span>KOTLIN</span>
-            <i>✦</i>
+            <span>
+              SPRING BOOT
+            </span>
 
-            <span>AI SYSTEMS</span>
-            <i>✦</i>
+            <i>
+              ✦
+            </i>
 
-            <span>KMP</span>
-            <i>✦</i>
+            <span>
+              KOTLIN
+            </span>
 
-            <span>POSTGRESQL</span>
-            <i>✦</i>
+            <i>
+              ✦
+            </i>
 
-            <span>REACT</span>
+            <span>
+              AI SYSTEMS
+            </span>
+
+            <i>
+              ✦
+            </i>
+
+            <span>
+              KMP
+            </span>
+
+            <i>
+              ✦
+            </i>
+
+            <span>
+              POSTGRESQL
+            </span>
+
+            <i>
+              ✦
+            </i>
+
+            <span>
+              REACT
+            </span>
           </div>
         </section>
 
@@ -173,7 +236,10 @@ function App() {
             SELECTED WORK
             ===================================================== */}
 
-        <section className="work-section" id="work">
+        <section
+          className="work-section"
+          id="work"
+        >
           <div className="section-heading">
             <p className="micro-label">
               SELECTED WORK / 2026
@@ -194,14 +260,22 @@ function App() {
 
           <div className="project-grid">
             {/* =================================================
-                DERVALE
+                DERVALE PROJECT CARD
                 ================================================= */}
 
             <article className="project-card project-dervale">
               <div className="project-meta-row">
-                <span>01</span>
-                <span>FLAGSHIP / AI INFRASTRUCTURE</span>
-                <span>2026</span>
+                <span>
+                  01
+                </span>
+
+                <span>
+                  FLAGSHIP / AI INFRASTRUCTURE
+                </span>
+
+                <span>
+                  2026
+                </span>
               </div>
 
               <div className="dervale-visual">
@@ -222,13 +296,17 @@ function App() {
                 </div>
 
                 <div className="gateway-core">
-                  <span>D</span>
+                  <span>
+                    D
+                  </span>
                 </div>
               </div>
 
               <div className="project-copy">
                 <div>
-                  <h3>Dervale</h3>
+                  <h3>
+                    Dervale
+                  </h3>
 
                   <p className="project-subtitle">
                     Enterprise AI Gateway Platform
@@ -257,14 +335,22 @@ function App() {
             </article>
 
             {/* =================================================
-                SYNCBOARD
+                SYNCBOARD PROJECT CARD
                 ================================================= */}
 
             <article className="project-card project-syncboard">
               <div className="project-meta-row light-meta">
-                <span>02</span>
-                <span>KOTLIN MULTIPLATFORM</span>
-                <span>2026</span>
+                <span>
+                  02
+                </span>
+
+                <span>
+                  KOTLIN MULTIPLATFORM
+                </span>
+
+                <span>
+                  2026
+                </span>
               </div>
 
               <div className="syncboard-art">
@@ -286,7 +372,9 @@ function App() {
                   <div className="task-row wide" />
 
                   <div className="conflict-box">
-                    <span>SYNC CONFLICT</span>
+                    <span>
+                      SYNC CONFLICT
+                    </span>
 
                     <small>
                       Use server
@@ -305,7 +393,9 @@ function App() {
 
               <div className="project-copy light-copy">
                 <div>
-                  <h3>SyncBoard</h3>
+                  <h3>
+                    SyncBoard
+                  </h3>
 
                   <p className="project-subtitle">
                     Offline-first synchronization system
@@ -342,8 +432,13 @@ function App() {
 
             <article className="project-card project-interview">
               <div className="project-meta-row">
-                <span>03</span>
-                <span>AI PRODUCT</span>
+                <span>
+                  03
+                </span>
+
+                <span>
+                  AI PRODUCT
+                </span>
               </div>
 
               <div className="interview-art">
@@ -386,11 +481,13 @@ function App() {
               </p>
 
               <strong>
-                Interested in building things with an
-                engineering story.
+                Interested in building things with an engineering
+                story.
               </strong>
 
-              <span>— HK</span>
+              <span>
+                — HK
+              </span>
             </aside>
           </div>
         </section>
@@ -403,10 +500,6 @@ function App() {
           className="dervale-case-study"
           id="dervale"
         >
-          {/* ===================================================
-              CASE HEADER
-              =================================================== */}
-
           <div className="case-header">
             <p className="case-number">
               CASE FILE 01 / FLAGSHIP
@@ -453,10 +546,10 @@ function App() {
 
               <p>
                 Applications often begin by calling one AI
-                provider directly. As the product grows,
-                provider credentials, API keys, authentication
-                and provider-specific behavior start leaking
-                into different parts of the system.
+                provider directly. As the product grows, provider
+                credentials, API keys, authentication and
+                provider-specific behavior start leaking into
+                different parts of the system.
               </p>
 
               <p>
@@ -477,14 +570,24 @@ function App() {
 
             <div className="gateway-board">
               <div className="board-caption">
-                <span>SYSTEM MAP</span>
-                <span>DERVALE / 01</span>
+                <span>
+                  SYSTEM MAP
+                </span>
+
+                <span>
+                  DERVALE / 01
+                </span>
               </div>
 
               <div className="architecture-map">
                 <div className="architecture-client">
-                  <span>CLIENT</span>
-                  <strong>Application</strong>
+                  <span>
+                    CLIENT
+                  </span>
+
+                  <strong>
+                    Application
+                  </strong>
                 </div>
 
                 <div className="architecture-line line-client" />
@@ -494,9 +597,13 @@ function App() {
                     AI GATEWAY
                   </small>
 
-                  <strong>D</strong>
+                  <strong>
+                    D
+                  </strong>
 
-                  <span>Dervale</span>
+                  <span>
+                    Dervale
+                  </span>
                 </div>
 
                 <div className="architecture-line line-provider-one" />
@@ -504,27 +611,49 @@ function App() {
                 <div className="architecture-line line-provider-three" />
 
                 <div className="provider provider-one">
-                  <span>PROVIDER</span>
-                  <strong>AI 01</strong>
+                  <span>
+                    PROVIDER
+                  </span>
+
+                  <strong>
+                    AI 01
+                  </strong>
                 </div>
 
                 <div className="provider provider-two">
-                  <span>PROVIDER</span>
-                  <strong>AI 02</strong>
+                  <span>
+                    PROVIDER
+                  </span>
+
+                  <strong>
+                    AI 02
+                  </strong>
                 </div>
 
                 <div className="provider provider-three">
-                  <span>PROVIDER</span>
-                  <strong>AI 03</strong>
+                  <span>
+                    PROVIDER
+                  </span>
+
+                  <strong>
+                    AI 03
+                  </strong>
                 </div>
 
                 <div className="architecture-key">
-                  <span>DEV KEY</span>
-                  <strong>••••••••</strong>
+                  <span>
+                    DEV KEY
+                  </span>
+
+                  <strong>
+                    ••••••••
+                  </strong>
                 </div>
 
                 <div className="architecture-credentials">
-                  <span>SECURE</span>
+                  <span>
+                    SECURE
+                  </span>
 
                   <strong>
                     Provider credentials
@@ -541,12 +670,14 @@ function App() {
           </div>
 
           {/* ===================================================
-              PLATFORM FEATURES
+              CORE PLATFORM FEATURES
               =================================================== */}
 
           <div className="case-features">
             <article>
-              <span>01</span>
+              <span>
+                01
+              </span>
 
               <h3>
                 Provider abstraction
@@ -559,7 +690,9 @@ function App() {
             </article>
 
             <article>
-              <span>02</span>
+              <span>
+                02
+              </span>
 
               <h3>
                 Provider credentials
@@ -573,30 +706,33 @@ function App() {
             </article>
 
             <article>
-              <span>03</span>
+              <span>
+                03
+              </span>
 
               <h3>
                 Developer API keys
               </h3>
 
               <p>
-                Applications can authenticate against the
-                gateway using developer API keys managed from
-                the Dervale console.
+                Applications can authenticate against the gateway
+                using developer API keys managed from the Dervale
+                console.
               </p>
             </article>
 
             <article>
-              <span>04</span>
+              <span>
+                04
+              </span>
 
               <h3>
                 Account security
               </h3>
 
               <p>
-                Authentication and account-recovery flows
-                support the developer-facing platform
-                experience.
+                Authentication and account-recovery flows support
+                the developer-facing platform experience.
               </p>
             </article>
           </div>
@@ -620,8 +756,8 @@ function App() {
               <p>
                 The product surface covers provider access,
                 developer keys, multi-model execution, usage
-                analytics and the gateway itself — all behind
-                one workspace.
+                analytics and the gateway itself — all behind one
+                workspace.
               </p>
             </div>
 
@@ -641,13 +777,12 @@ function App() {
                 </span>
 
                 <strong>
-                  Usage, tokens, estimated cost and spend
-                  controls.
+                  Usage, tokens, estimated cost and spend controls.
                 </strong>
               </figcaption>
             </figure>
 
-            {/* COMPARE */}
+            {/* MODEL COMPARISON */}
 
             <figure className="dervale-shot dervale-shot-compare">
               <div className="dervale-shot-frame">
@@ -713,7 +848,7 @@ function App() {
               </figure>
             </div>
 
-            {/* UI PROOF NOTE */}
+            {/* PRODUCT NOTE */}
 
             <div className="dervale-product-note">
               <span>
@@ -764,8 +899,8 @@ function App() {
                   </span>
 
                   <strong>
-                    Authentication and account recovery around
-                    a private infrastructure workspace.
+                    Authentication and account recovery around a
+                    private infrastructure workspace.
                   </strong>
                 </figcaption>
               </figure>
@@ -818,7 +953,11 @@ function App() {
           </div>
 
           {/* ===================================================
-              DERVALE STACK + LINKS
+              STACK + LIVE PRODUCT
+
+              IMPORTANT:
+              The private ai-gateway-platform GitHub repository
+              is intentionally NOT linked here.
               =================================================== */}
 
           <div className="case-stack">
@@ -828,8 +967,8 @@ function App() {
               </span>
 
               <p>
-                Java · Spring Boot · React · PostgreSQL ·
-                REST APIs · Gradle
+                Java · Spring Boot · React · PostgreSQL · REST APIs
+                · Gradle
               </p>
             </div>
 
@@ -839,15 +978,6 @@ function App() {
               rel="noreferrer"
             >
               View live Dervale
-              <External />
-            </a>
-
-            <a
-              href="https://github.com/harmanpreetbuilds/ai-gateway-platform"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
               <External />
             </a>
           </div>
@@ -875,7 +1005,9 @@ function App() {
 
           <div className="capability-list">
             <article>
-              <span>01</span>
+              <span>
+                01
+              </span>
 
               <h3>
                 Backend systems
@@ -888,7 +1020,9 @@ function App() {
             </article>
 
             <article>
-              <span>02</span>
+              <span>
+                02
+              </span>
 
               <h3>
                 AI infrastructure
@@ -901,7 +1035,9 @@ function App() {
             </article>
 
             <article>
-              <span>03</span>
+              <span>
+                03
+              </span>
 
               <h3>
                 Cross-platform
@@ -914,7 +1050,9 @@ function App() {
             </article>
 
             <article>
-              <span>04</span>
+              <span>
+                04
+              </span>
 
               <h3>
                 Reliability
@@ -934,9 +1072,17 @@ function App() {
 
         <section className="about-section">
           <div className="about-stamp">
-            <span>ENGINEERING</span>
-            <strong>+</strong>
-            <span>CURIOSITY</span>
+            <span>
+              ENGINEERING
+            </span>
+
+            <strong>
+              +
+            </strong>
+
+            <span>
+              CURIOSITY
+            </span>
           </div>
 
           <div className="about-copy">
@@ -947,6 +1093,7 @@ function App() {
             <h2>
               I like the part where
               <br />
+
               <em>
                 the simple app stops being simple.
               </em>
@@ -962,8 +1109,8 @@ function App() {
 
             <p>
               My portfolio is intentionally centered around
-              systems with interesting constraints — not
-              another collection of tutorial clones.
+              systems with interesting constraints — not another
+              collection of tutorial clones.
             </p>
           </div>
         </section>
@@ -1012,9 +1159,17 @@ function App() {
           ===================================================== */}
 
       <footer>
-        <span>HARMANPREET</span>
-        <span>SOFTWARE ENGINEER</span>
-        <span>© 2026</span>
+        <span>
+          HARMANPREET
+        </span>
+
+        <span>
+          SOFTWARE ENGINEER
+        </span>
+
+        <span>
+          © 2026
+        </span>
       </footer>
     </div>
   )
