@@ -31,30 +31,16 @@ const External = () => (
 function App() {
   return (
     <div className="portfolio">
-      {/* =====================================================
-          NAVIGATION
-          ===================================================== */}
-
+      {/* NAVIGATION */}
       <header className="nav">
-        <a
-          className="wordmark"
-          href="#top"
-        >
+        <a className="wordmark" href="#top">
           HARMANPREET
         </a>
 
         <nav>
-          <a href="#work">
-            Work
-          </a>
-
-          <a href="#about">
-            About
-          </a>
-
-          <a href="#contact">
-            Contact
-          </a>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
         </nav>
 
         <a
@@ -69,17 +55,11 @@ function App() {
       </header>
 
       <main>
-        {/* =====================================================
-            HERO
-            ===================================================== */}
-
-        <section
-          className="hero"
-          id="top"
-        >
+        {/* HERO */}
+        <section className="hero" id="top">
           <div className="hero-left">
             <p className="micro-label">
-              SOFTWARE ENGINEER · INDIA · 2026
+              SOFTWARE ENGINEER · BACKEND · AI INFRASTRUCTURE · KOTLIN
             </p>
 
             <h1>
@@ -93,15 +73,12 @@ function App() {
             <div className="hero-bottom">
               <p className="intro">
                 Backend systems, AI infrastructure and
-                cross-platform products designed around the
-                problems that usually get ignored until
-                production.
+                cross-platform products built for real-world use.
+                Open to software engineering roles, contract work
+                and selected freelance builds.
               </p>
 
-              <a
-                className="text-link"
-                href="#work"
-              >
+              <a className="text-link" href="#work">
                 See selected work
                 <Arrow />
               </a>
@@ -110,10 +87,7 @@ function App() {
 
           <div className="hero-collage">
             <div className="paper-note note-one">
-              <span>
-                currently obsessed with
-              </span>
-
+              <span>currently obsessed with</span>
               <strong>
                 reliability, sync & AI infrastructure
               </strong>
@@ -124,19 +98,12 @@ function App() {
                 01 / FLAGSHIP
               </div>
 
-              <div className="dervale-mark">
-                D
-              </div>
+              <div className="dervale-mark">D</div>
 
               <div className="dervale-preview-bottom">
                 <div>
-                  <span>
-                    ENTERPRISE AI GATEWAY
-                  </span>
-
-                  <h2>
-                    Dervale
-                  </h2>
+                  <span>ENTERPRISE AI GATEWAY</span>
+                  <h2>Dervale</h2>
                 </div>
 
                 <a
@@ -150,18 +117,14 @@ function App() {
             </article>
 
             <div className="mini-card sync-mini">
-              <span className="mini-number">
-                02
-              </span>
+              <span className="mini-number">02</span>
 
               <div className="sync-symbol">
                 <span />
                 <span />
               </div>
 
-              <p>
-                SyncBoard
-              </p>
+              <p>SyncBoard</p>
             </div>
 
             <div className="scribble">
@@ -172,74 +135,33 @@ function App() {
           </div>
         </section>
 
-        {/* =====================================================
-            TECHNOLOGY MARQUEE
-            ===================================================== */}
-
+        {/* TECHNOLOGY MARQUEE */}
         <section className="marquee-line">
           <div>
-            <span>
-              JAVA
-            </span>
+            <span>JAVA</span>
+            <i>✦</i>
 
-            <i>
-              ✦
-            </i>
+            <span>SPRING BOOT</span>
+            <i>✦</i>
 
-            <span>
-              SPRING BOOT
-            </span>
+            <span>KOTLIN</span>
+            <i>✦</i>
 
-            <i>
-              ✦
-            </i>
+            <span>AI SYSTEMS</span>
+            <i>✦</i>
 
-            <span>
-              KOTLIN
-            </span>
+            <span>KMP</span>
+            <i>✦</i>
 
-            <i>
-              ✦
-            </i>
+            <span>POSTGRESQL</span>
+            <i>✦</i>
 
-            <span>
-              AI SYSTEMS
-            </span>
-
-            <i>
-              ✦
-            </i>
-
-            <span>
-              KMP
-            </span>
-
-            <i>
-              ✦
-            </i>
-
-            <span>
-              POSTGRESQL
-            </span>
-
-            <i>
-              ✦
-            </i>
-
-            <span>
-              REACT
-            </span>
+            <span>REACT</span>
           </div>
         </section>
 
-        {/* =====================================================
-            SELECTED WORK
-            ===================================================== */}
-
-        <section
-          className="work-section"
-          id="work"
-        >
+        {/* SELECTED WORK */}
+        <section className="work-section" id="work">
           <div className="section-heading">
             <p className="micro-label">
               SELECTED WORK / 2026
@@ -259,23 +181,12 @@ function App() {
           </div>
 
           <div className="project-grid">
-            {/* =================================================
-                DERVALE PROJECT CARD
-                ================================================= */}
-
+            {/* DERVALE */}
             <article className="project-card project-dervale">
               <div className="project-meta-row">
-                <span>
-                  01
-                </span>
-
-                <span>
-                  FLAGSHIP / AI INFRASTRUCTURE
-                </span>
-
-                <span>
-                  2026
-                </span>
+                <span>01</span>
+                <span>FLAGSHIP / AI INFRASTRUCTURE</span>
+                <span>2026</span>
               </div>
 
               <div className="dervale-visual">
@@ -296,17 +207,13 @@ function App() {
                 </div>
 
                 <div className="gateway-core">
-                  <span>
-                    D
-                  </span>
+                  <span>D</span>
                 </div>
               </div>
 
               <div className="project-copy">
                 <div>
-                  <h3>
-                    Dervale
-                  </h3>
+                  <h3>Dervale</h3>
 
                   <p className="project-subtitle">
                     Enterprise AI Gateway Platform
@@ -334,29 +241,17 @@ function App() {
               </div>
             </article>
 
-            {/* =================================================
-                SYNCBOARD PROJECT CARD
-                ================================================= */}
-
+            {/* SYNCBOARD */}
             <article className="project-card project-syncboard">
               <div className="project-meta-row light-meta">
-                <span>
-                  02
-                </span>
-
-                <span>
-                  KOTLIN MULTIPLATFORM
-                </span>
-
-                <span>
-                  2026
-                </span>
+                <span>02</span>
+                <span>KOTLIN MULTIPLATFORM</span>
+                <span>2026</span>
               </div>
 
               <div className="syncboard-art">
                 <div className="phone phone-left">
                   <div className="phone-bar" />
-
                   <div className="task-row wide" />
                   <div className="task-row" />
                   <div className="task-row small" />
@@ -368,34 +263,21 @@ function App() {
 
                 <div className="phone phone-right">
                   <div className="phone-bar" />
-
                   <div className="task-row wide" />
 
                   <div className="conflict-box">
-                    <span>
-                      SYNC CONFLICT
-                    </span>
-
-                    <small>
-                      Use server
-                    </small>
-
-                    <small>
-                      Keep mine
-                    </small>
+                    <span>SYNC CONFLICT</span>
+                    <small>Use server</small>
+                    <small>Keep mine</small>
                   </div>
                 </div>
 
-                <div className="sync-orbit">
-                  ↻
-                </div>
+                <div className="sync-orbit">↻</div>
               </div>
 
               <div className="project-copy light-copy">
                 <div>
-                  <h3>
-                    SyncBoard
-                  </h3>
+                  <h3>SyncBoard</h3>
 
                   <p className="project-subtitle">
                     Offline-first synchronization system
@@ -426,25 +308,15 @@ function App() {
               </div>
             </article>
 
-            {/* =================================================
-                AI MOCK INTERVIEW
-                ================================================= */}
-
+            {/* AI MOCK INTERVIEW */}
             <article className="project-card project-interview">
               <div className="project-meta-row">
-                <span>
-                  03
-                </span>
-
-                <span>
-                  AI PRODUCT
-                </span>
+                <span>03</span>
+                <span>AI PRODUCT</span>
               </div>
 
               <div className="interview-art">
-                <span className="quote-mark">
-                  “
-                </span>
+                <span className="quote-mark">“</span>
 
                 <p>
                   Tell me about a difficult engineering
@@ -464,9 +336,7 @@ function App() {
 
               <div className="project-copy compact">
                 <div>
-                  <h3>
-                    AI Mock Interview
-                  </h3>
+                  <h3>AI Mock Interview</h3>
 
                   <p className="project-subtitle">
                     Intelligent interview preparation
@@ -485,17 +355,12 @@ function App() {
                 story.
               </strong>
 
-              <span>
-                — HK
-              </span>
+              <span>— HK</span>
             </aside>
           </div>
         </section>
 
-        {/* =====================================================
-            DERVALE CASE STUDY
-            ===================================================== */}
-
+        {/* DERVALE CASE STUDY */}
         <section
           className="dervale-case-study"
           id="dervale"
@@ -528,10 +393,7 @@ function App() {
             </div>
           </div>
 
-          {/* ===================================================
-              PROBLEM + ARCHITECTURE
-              =================================================== */}
-
+          {/* PROBLEM + ARCHITECTURE */}
           <div className="case-layout">
             <article className="case-problem">
               <span className="case-label">
@@ -558,9 +420,7 @@ function App() {
               </p>
 
               <div className="margin-note">
-                <span>
-                  design principle
-                </span>
+                <span>design principle</span>
 
                 <strong>
                   centralize complexity before it spreads.
@@ -570,40 +430,22 @@ function App() {
 
             <div className="gateway-board">
               <div className="board-caption">
-                <span>
-                  SYSTEM MAP
-                </span>
-
-                <span>
-                  DERVALE / 01
-                </span>
+                <span>SYSTEM MAP</span>
+                <span>DERVALE / 01</span>
               </div>
 
               <div className="architecture-map">
                 <div className="architecture-client">
-                  <span>
-                    CLIENT
-                  </span>
-
-                  <strong>
-                    Application
-                  </strong>
+                  <span>CLIENT</span>
+                  <strong>Application</strong>
                 </div>
 
                 <div className="architecture-line line-client" />
 
                 <div className="architecture-core">
-                  <small>
-                    AI GATEWAY
-                  </small>
-
-                  <strong>
-                    D
-                  </strong>
-
-                  <span>
-                    Dervale
-                  </span>
+                  <small>AI GATEWAY</small>
+                  <strong>D</strong>
+                  <span>Dervale</span>
                 </div>
 
                 <div className="architecture-line line-provider-one" />
@@ -611,53 +453,28 @@ function App() {
                 <div className="architecture-line line-provider-three" />
 
                 <div className="provider provider-one">
-                  <span>
-                    PROVIDER
-                  </span>
-
-                  <strong>
-                    AI 01
-                  </strong>
+                  <span>PROVIDER</span>
+                  <strong>AI 01</strong>
                 </div>
 
                 <div className="provider provider-two">
-                  <span>
-                    PROVIDER
-                  </span>
-
-                  <strong>
-                    AI 02
-                  </strong>
+                  <span>PROVIDER</span>
+                  <strong>AI 02</strong>
                 </div>
 
                 <div className="provider provider-three">
-                  <span>
-                    PROVIDER
-                  </span>
-
-                  <strong>
-                    AI 03
-                  </strong>
+                  <span>PROVIDER</span>
+                  <strong>AI 03</strong>
                 </div>
 
                 <div className="architecture-key">
-                  <span>
-                    DEV KEY
-                  </span>
-
-                  <strong>
-                    ••••••••
-                  </strong>
+                  <span>DEV KEY</span>
+                  <strong>••••••••</strong>
                 </div>
 
                 <div className="architecture-credentials">
-                  <span>
-                    SECURE
-                  </span>
-
-                  <strong>
-                    Provider credentials
-                  </strong>
+                  <span>SECURE</span>
+                  <strong>Provider credentials</strong>
                 </div>
               </div>
 
@@ -669,19 +486,12 @@ function App() {
             </div>
           </div>
 
-          {/* ===================================================
-              CORE PLATFORM FEATURES
-              =================================================== */}
-
+          {/* CORE FEATURES */}
           <div className="case-features">
             <article>
-              <span>
-                01
-              </span>
+              <span>01</span>
 
-              <h3>
-                Provider abstraction
-              </h3>
+              <h3>Provider abstraction</h3>
 
               <p>
                 A gateway layer separates application code from
@@ -690,13 +500,9 @@ function App() {
             </article>
 
             <article>
-              <span>
-                02
-              </span>
+              <span>02</span>
 
-              <h3>
-                Provider credentials
-              </h3>
+              <h3>Provider credentials</h3>
 
               <p>
                 Provider credentials are managed through the
@@ -706,13 +512,9 @@ function App() {
             </article>
 
             <article>
-              <span>
-                03
-              </span>
+              <span>03</span>
 
-              <h3>
-                Developer API keys
-              </h3>
+              <h3>Developer API keys</h3>
 
               <p>
                 Applications can authenticate against the gateway
@@ -722,13 +524,9 @@ function App() {
             </article>
 
             <article>
-              <span>
-                04
-              </span>
+              <span>04</span>
 
-              <h3>
-                Account security
-              </h3>
+              <h3>Account security</h3>
 
               <p>
                 Authentication and account-recovery flows support
@@ -737,10 +535,7 @@ function App() {
             </article>
           </div>
 
-          {/* ===================================================
-              INSIDE DERVALE
-              =================================================== */}
-
+          {/* INSIDE DERVALE */}
           <section className="inside-dervale">
             <div className="inside-dervale-heading">
               <p className="case-label">
@@ -762,7 +557,6 @@ function App() {
             </div>
 
             {/* ANALYTICS */}
-
             <figure className="dervale-shot dervale-shot-hero">
               <div className="dervale-shot-frame">
                 <img
@@ -772,9 +566,7 @@ function App() {
               </div>
 
               <figcaption>
-                <span>
-                  01 / OPERATIONS
-                </span>
+                <span>01 / OPERATIONS</span>
 
                 <strong>
                   Usage, tokens, estimated cost and spend controls.
@@ -783,7 +575,6 @@ function App() {
             </figure>
 
             {/* MODEL COMPARISON */}
-
             <figure className="dervale-shot dervale-shot-compare">
               <div className="dervale-shot-frame">
                 <img
@@ -804,8 +595,7 @@ function App() {
               </figcaption>
             </figure>
 
-            {/* DEVELOPERS + PROVIDERS */}
-
+            {/* DEVELOPER + PROVIDER */}
             <div className="dervale-shot-pair">
               <figure className="dervale-shot dervale-shot-developers">
                 <div className="dervale-shot-frame">
@@ -816,9 +606,7 @@ function App() {
                 </div>
 
                 <figcaption>
-                  <span>
-                    03 / DEVELOPER API
-                  </span>
+                  <span>03 / DEVELOPER API</span>
 
                   <strong>
                     Scoped gateway keys behind one stable AI
@@ -836,9 +624,7 @@ function App() {
                 </div>
 
                 <figcaption>
-                  <span>
-                    04 / PROVIDER ACCESS
-                  </span>
+                  <span>04 / PROVIDER ACCESS</span>
 
                   <strong>
                     Encrypted provider credentials with
@@ -848,12 +634,8 @@ function App() {
               </figure>
             </div>
 
-            {/* PRODUCT NOTE */}
-
             <div className="dervale-product-note">
-              <span>
-                WHAT THE UI PROVES
-              </span>
+              <span>WHAT THE UI PROVES</span>
 
               <p>
                 Dervale is not a thin interface around a model
@@ -863,7 +645,6 @@ function App() {
             </div>
 
             {/* CHAT + LOGIN */}
-
             <div className="dervale-shot-pair dervale-shot-pair-bottom">
               <figure className="dervale-shot dervale-shot-chat">
                 <div className="dervale-shot-frame">
@@ -894,9 +675,7 @@ function App() {
                 </div>
 
                 <figcaption>
-                  <span>
-                    06 / ACCESS
-                  </span>
+                  <span>06 / ACCESS</span>
 
                   <strong>
                     Authentication and account recovery around a
@@ -907,10 +686,7 @@ function App() {
             </div>
           </section>
 
-          {/* ===================================================
-              ENGINEERING STORY
-              =================================================== */}
-
+          {/* ENGINEERING STORY */}
           <div className="engineering-spread">
             <div className="engineering-title">
               <p className="case-label">
@@ -952,13 +728,11 @@ function App() {
             </aside>
           </div>
 
-          {/* ===================================================
-              STACK + LIVE PRODUCT
-
-              IMPORTANT:
-              The private ai-gateway-platform GitHub repository
-              is intentionally NOT linked here.
-              =================================================== */}
+          {/*
+            IMPORTANT:
+            Dervale source repository is intentionally private.
+            Do not add its private GitHub repository URL here.
+          */}
 
           <div className="case-stack">
             <div>
@@ -983,10 +757,7 @@ function App() {
           </div>
         </section>
 
-        {/* =====================================================
-            CAPABILITIES
-            ===================================================== */}
-
+        {/* CAPABILITIES */}
         <section
           className="capabilities"
           id="about"
@@ -1005,13 +776,9 @@ function App() {
 
           <div className="capability-list">
             <article>
-              <span>
-                01
-              </span>
+              <span>01</span>
 
-              <h3>
-                Backend systems
-              </h3>
+              <h3>Backend systems</h3>
 
               <p>
                 APIs, authentication, databases, service
@@ -1020,13 +787,9 @@ function App() {
             </article>
 
             <article>
-              <span>
-                02
-              </span>
+              <span>02</span>
 
-              <h3>
-                AI infrastructure
-              </h3>
+              <h3>AI infrastructure</h3>
 
               <p>
                 Provider abstraction, LLM integration, gateways
@@ -1035,13 +798,9 @@ function App() {
             </article>
 
             <article>
-              <span>
-                03
-              </span>
+              <span>03</span>
 
-              <h3>
-                Cross-platform
-              </h3>
+              <h3>Cross-platform</h3>
 
               <p>
                 Kotlin Multiplatform systems with native Android
@@ -1050,13 +809,9 @@ function App() {
             </article>
 
             <article>
-              <span>
-                04
-              </span>
+              <span>04</span>
 
-              <h3>
-                Reliability
-              </h3>
+              <h3>Reliability</h3>
 
               <p>
                 Offline-first architecture, synchronization,
@@ -1066,23 +821,12 @@ function App() {
           </div>
         </section>
 
-        {/* =====================================================
-            ABOUT
-            ===================================================== */}
-
+        {/* ABOUT */}
         <section className="about-section">
           <div className="about-stamp">
-            <span>
-              ENGINEERING
-            </span>
-
-            <strong>
-              +
-            </strong>
-
-            <span>
-              CURIOSITY
-            </span>
+            <span>ENGINEERING</span>
+            <strong>+</strong>
+            <span>CURIOSITY</span>
           </div>
 
           <div className="about-copy">
@@ -1093,7 +837,6 @@ function App() {
             <h2>
               I like the part where
               <br />
-
               <em>
                 the simple app stops being simple.
               </em>
@@ -1115,30 +858,27 @@ function App() {
           </div>
         </section>
 
-        {/* =====================================================
-            CONTACT
-            ===================================================== */}
-
+        {/* CONTACT */}
         <section
           className="contact-section"
           id="contact"
         >
           <p className="micro-label">
-            LET’S BUILD SOMETHING GOOD
+            OPEN TO ROLES · CONTRACTS · SELECTED FREELANCE
           </p>
 
           <h2>
-            Have a product that needs
+            Building a product — or a team that needs
             <br />
-            <em>more than pretty screens?</em>
+            <em>strong backend engineering?</em>
           </h2>
 
           <div className="contact-row">
             <a
-              href={`mailto:${CONTACT_EMAIL}?subject=Project%20Enquiry%20from%20Portfolio`}
+              href={`mailto:${CONTACT_EMAIL}?subject=Portfolio%20Enquiry%20-%20Harmanpreet%20Kaur`}
               className="contact-primary"
             >
-              Work with me
+              Email me
               <Arrow />
             </a>
 
@@ -1154,22 +894,11 @@ function App() {
         </section>
       </main>
 
-      {/* =====================================================
-          FOOTER
-          ===================================================== */}
-
+      {/* FOOTER */}
       <footer>
-        <span>
-          HARMANPREET
-        </span>
-
-        <span>
-          SOFTWARE ENGINEER
-        </span>
-
-        <span>
-          © 2026
-        </span>
+        <span>HARMANPREET</span>
+        <span>SOFTWARE ENGINEER</span>
+        <span>© 2026</span>
       </footer>
     </div>
   )
