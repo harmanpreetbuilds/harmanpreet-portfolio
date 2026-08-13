@@ -1,6 +1,6 @@
 import './App.css'
 
-const CONTACT_EMAIL = 'YOUR_EMAIL_HERE'
+const CONTACT_EMAIL = 'your-real-email@example.com'
 
 const Arrow = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true">
