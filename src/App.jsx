@@ -59,7 +59,7 @@ function App() {
         <section className="hero" id="top">
           <div className="hero-left">
             <p className="micro-label">
-              SOFTWARE ENGINEER · BACKEND · AI INFRASTRUCTURE · KOTLIN
+              SOFTWARE ENGINEER · BACKEND · B2B SAAS · AI SYSTEMS
             </p>
 
             <h1>
@@ -72,7 +72,7 @@ function App() {
 
             <div className="hero-bottom">
               <p className="intro">
-                Backend systems, AI infrastructure and
+                Backend systems, B2B SaaS and
                 cross-platform products built for real-world use.
                 Open to software engineering roles, contract work
                 and selected freelance builds.
@@ -89,27 +89,27 @@ function App() {
             <div className="paper-note note-one">
               <span>currently obsessed with</span>
               <strong>
-                reliability, sync & AI infrastructure
+                reliability, SaaS systems & AI
               </strong>
             </div>
 
-            <article className="dervale-preview">
+            <article className="marden-preview">
               <div className="project-index">
                 01 / FLAGSHIP
               </div>
 
-              <div className="dervale-mark">D</div>
+              <div className="marden-mark">M</div>
 
-              <div className="dervale-preview-bottom">
+              <div className="marden-preview-bottom">
                 <div>
-                  <span>ENTERPRISE AI GATEWAY</span>
-                  <h2>Dervale</h2>
+                  <span>AGENCY OPERATING SYSTEM</span>
+                  <h2>Marden Row</h2>
                 </div>
 
                 <a
                   className="arrow-circle"
-                  href="#dervale"
-                  aria-label="Open Dervale case study"
+                  href="#marden-row"
+                  aria-label="Open Marden Row case study"
                 >
                   <Arrow />
                 </a>
@@ -181,60 +181,59 @@ function App() {
           </div>
 
           <div className="project-grid">
-            {/* DERVALE */}
-            <article className="project-card project-dervale">
+            {/* MARDEN ROW */}
+            <article className="project-card project-marden">
               <div className="project-meta-row">
                 <span>01</span>
-                <span>FLAGSHIP / AI INFRASTRUCTURE</span>
+                <span>FLAGSHIP / B2B SAAS</span>
                 <span>2026</span>
               </div>
 
-              <div className="dervale-visual">
+              <div className="marden-visual">
                 <div className="gateway-line line-a" />
                 <div className="gateway-line line-b" />
                 <div className="gateway-line line-c" />
 
                 <div className="gateway-node node-one">
-                  AI
+                  OPS
                 </div>
 
                 <div className="gateway-node node-two">
-                  API
+                  AI
                 </div>
 
                 <div className="gateway-node node-three">
-                  LLM
+                  RISK
                 </div>
 
                 <div className="gateway-core">
-                  <span>D</span>
+                  <span>M</span>
                 </div>
               </div>
 
               <div className="project-copy">
                 <div>
-                  <h3>Dervale</h3>
+                  <h3>Marden Row</h3>
 
                   <p className="project-subtitle">
-                    Enterprise AI Gateway Platform
+                    Agency Operating System
                   </p>
                 </div>
 
                 <p>
-                  A unified infrastructure layer for routing,
-                  securing and operating AI workloads — built
-                  around provider abstraction, credentials,
-                  developer API keys, authentication and reliable
-                  backend architecture.
+                  A multi-tenant SaaS platform that connects
+                  client delivery, commitments, scope, change
+                  orders, profitability and AI-assisted agency
+                  operations in one workspace.
                 </p>
               </div>
 
               <div className="project-footer">
                 <div className="plain-stack">
-                  Spring Boot / React / PostgreSQL / AI APIs
+                  Next.js / Hono / PostgreSQL / Prisma / AI
                 </div>
 
-                <a href="#dervale">
+                <a href="#marden-row">
                   Case study
                   <Arrow />
                 </a>
@@ -360,10 +359,10 @@ function App() {
           </div>
         </section>
 
-        {/* DERVALE CASE STUDY */}
+        {/* MARDEN ROW CASE STUDY */}
         <section
-          className="dervale-case-study"
-          id="dervale"
+          className="marden-case-study"
+          id="marden-row"
         >
           <div className="case-header">
             <p className="case-number">
@@ -372,28 +371,27 @@ function App() {
 
             <div className="case-heading">
               <h2>
-                One gateway.
+                Run the agency.
                 <br />
-                <em>Many AI providers.</em>
+                <em>Protect the margin.</em>
               </h2>
 
               <div className="case-intro">
                 <span>
-                  DERVALE / ENTERPRISE AI INFRASTRUCTURE
+                  MARDEN ROW / AGENCY OPERATING SYSTEM
                 </span>
 
                 <p>
-                  Dervale is an AI gateway platform designed to
-                  give applications one controlled layer for
-                  accessing AI providers instead of scattering
-                  credentials, provider-specific logic and API
-                  integrations throughout a product.
+                  Marden Row is a multi-tenant operating system
+                  for agencies that connects client delivery,
+                  scope, commitments, commercial risk and
+                  profitability in one workspace. AGENCYYY is the
+                  intelligence layer inside the product.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* PROBLEM + ARCHITECTURE */}
           <div className="case-layout">
             <article className="case-problem">
               <span className="case-label">
@@ -401,29 +399,31 @@ function App() {
               </span>
 
               <h3>
-                AI integrations get messy
+                Agency margin disappears
                 <br />
-                <em>very quickly.</em>
+                <em>quietly.</em>
               </h3>
 
               <p>
-                Applications often begin by calling one AI
-                provider directly. As the product grows, provider
-                credentials, API keys, authentication and
-                provider-specific behavior start leaking into
-                different parts of the system.
+                Client promises, revisions, scope changes,
+                deadlines and project economics often live in
+                different places. The work can look healthy while
+                unpriced requests and delivery risk quietly erode
+                the margin underneath it.
               </p>
 
               <p>
-                Dervale moves that complexity behind a dedicated
-                gateway and developer console.
+                Marden Row connects those operational decisions
+                to their commercial consequences before the
+                project reaches the end.
               </p>
 
               <div className="margin-note">
                 <span>design principle</span>
 
                 <strong>
-                  centralize complexity before it spreads.
+                  make commercial risk visible while there is
+                  still time to act.
                 </strong>
               </div>
             </article>
@@ -431,21 +431,21 @@ function App() {
             <div className="gateway-board">
               <div className="board-caption">
                 <span>SYSTEM MAP</span>
-                <span>DERVALE / 01</span>
+                <span>MARDEN ROW / 01</span>
               </div>
 
               <div className="architecture-map">
                 <div className="architecture-client">
-                  <span>CLIENT</span>
-                  <strong>Application</strong>
+                  <span>AGENCY</span>
+                  <strong>Client delivery</strong>
                 </div>
 
                 <div className="architecture-line line-client" />
 
                 <div className="architecture-core">
-                  <small>AI GATEWAY</small>
-                  <strong>D</strong>
-                  <span>Dervale</span>
+                  <small>OPERATING SYSTEM</small>
+                  <strong>M</strong>
+                  <span>Marden Row</span>
                 </div>
 
                 <div className="architecture-line line-provider-one" />
@@ -453,240 +453,227 @@ function App() {
                 <div className="architecture-line line-provider-three" />
 
                 <div className="provider provider-one">
-                  <span>PROVIDER</span>
-                  <strong>AI 01</strong>
+                  <span>WORK</span>
+                  <strong>Projects</strong>
                 </div>
 
                 <div className="provider provider-two">
-                  <span>PROVIDER</span>
-                  <strong>AI 02</strong>
+                  <span>COMMERCIAL</span>
+                  <strong>Margin</strong>
                 </div>
 
                 <div className="provider provider-three">
-                  <span>PROVIDER</span>
-                  <strong>AI 03</strong>
+                  <span>CONTROL</span>
+                  <strong>Scope</strong>
                 </div>
 
                 <div className="architecture-key">
-                  <span>DEV KEY</span>
-                  <strong>••••••••</strong>
+                  <span>INTELLIGENCE</span>
+                  <strong>AGENCYYY</strong>
                 </div>
 
                 <div className="architecture-credentials">
-                  <span>SECURE</span>
-                  <strong>Provider credentials</strong>
+                  <span>OPERATIONS</span>
+                  <strong>Risk + actions</strong>
                 </div>
               </div>
 
               <p className="board-footnote">
-                Applications integrate with Dervale instead of
-                coupling product code directly to individual AI
-                providers.
+                Client work runs through one operating model so
+                scope, commitments, financial exposure and next
+                actions stay connected.
               </p>
             </div>
           </div>
 
-          {/* CORE FEATURES */}
           <div className="case-features">
             <article>
               <span>01</span>
 
-              <h3>Provider abstraction</h3>
+              <h3>AGENCYYY</h3>
 
               <p>
-                A gateway layer separates application code from
-                provider-specific AI integrations.
+                Agency intelligence grounded in the organization,
+                its clients, projects, commitments and commercial
+                context.
               </p>
             </article>
 
             <article>
               <span>02</span>
 
-              <h3>Provider credentials</h3>
+              <h3>Scope Guardian</h3>
 
               <p>
-                Provider credentials are managed through the
-                platform instead of being distributed throughout
-                client applications.
+                Evaluates incoming work against existing
+                commitments and identifies potential scope
+                expansion before it becomes free work.
               </p>
             </article>
 
             <article>
               <span>03</span>
 
-              <h3>Developer API keys</h3>
+              <h3>Profit Guard</h3>
 
               <p>
-                Applications can authenticate against the gateway
-                using developer API keys managed from the Dervale
-                console.
+                Connects project economics, delivery cost and
+                margin so commercial health remains visible while
+                work is in progress.
               </p>
             </article>
 
             <article>
               <span>04</span>
 
-              <h3>Account security</h3>
+              <h3>Action Center</h3>
 
               <p>
-                Authentication and account-recovery flows support
-                the developer-facing platform experience.
+                Converts operational signals into a focused view
+                of what the agency owner or team needs to handle
+                next.
               </p>
             </article>
           </div>
 
-          {/* INSIDE DERVALE */}
-          <section className="inside-dervale">
-            <div className="inside-dervale-heading">
+          <section className="inside-marden">
+            <div className="inside-marden-heading">
               <p className="case-label">
-                INSIDE DERVALE
+                INSIDE MARDEN ROW
               </p>
 
               <h3>
-                Built like a control plane,
+                More than project management.
                 <br />
-                <em>not a chat demo.</em>
+                <em>An agency control layer.</em>
               </h3>
 
               <p>
-                The product surface covers provider access,
-                developer keys, multi-model execution, usage
-                analytics and the gateway itself — all behind one
-                workspace.
+                The product connects delivery information to the
+                things that determine whether agency work is
+                commercially healthy.
               </p>
             </div>
 
-            {/* ANALYTICS */}
-            <figure className="dervale-shot dervale-shot-hero">
-              <div className="dervale-shot-frame">
+            <figure className="marden-shot marden-shot-hero">
+              <div className="marden-shot-frame">
                 <img
-                  src="/dervale/analytics.png"
-                  alt="Dervale AI usage and cost analytics dashboard"
+                  src="/marden-row/revenue-risk.png"
+                  alt="Marden Row Revenue at Risk intelligence dashboard"
                 />
               </div>
 
               <figcaption>
-                <span>01 / OPERATIONS</span>
+                <span>01 / COMMERCIAL INTELLIGENCE</span>
 
                 <strong>
-                  Usage, tokens, estimated cost and spend controls.
+                  Portfolio-level revenue exposure, margin and
+                  delivery risk in one operating view.
                 </strong>
               </figcaption>
             </figure>
 
-            {/* MODEL COMPARISON */}
-            <figure className="dervale-shot dervale-shot-compare">
-              <div className="dervale-shot-frame">
-                <img
-                  src="/dervale/compare.png"
-                  alt="Dervale multi-model AI comparison results"
-                />
-              </div>
-
-              <figcaption>
-                <span>
-                  02 / MULTI-MODEL EXECUTION
-                </span>
-
-                <strong>
-                  One prompt. Three providers. Latency, tokens
-                  and cost measured side by side.
-                </strong>
-              </figcaption>
-            </figure>
-
-            {/* DEVELOPER + PROVIDER */}
-            <div className="dervale-shot-pair">
-              <figure className="dervale-shot dervale-shot-developers">
-                <div className="dervale-shot-frame">
+            <div className="marden-shot-pair">
+              <figure className="marden-shot marden-shot-developers">
+                <div className="marden-shot-frame">
                   <img
-                    src="/dervale/developers.png"
-                    alt="Dervale developer gateway key management"
+                    src="/marden-row/agencyyy.png"
+                    alt="AGENCYYY agency intelligence workspace"
                   />
                 </div>
 
                 <figcaption>
-                  <span>03 / DEVELOPER API</span>
+                  <span>02 / AGENCYYY</span>
 
                   <strong>
-                    Scoped gateway keys behind one stable AI
-                    interface.
+                    Agency intelligence grounded in real clients,
+                    projects and operating context.
                   </strong>
                 </figcaption>
               </figure>
 
-              <figure className="dervale-shot dervale-shot-providers">
-                <div className="dervale-shot-frame">
+              <figure className="marden-shot marden-shot-providers">
+                <div className="marden-shot-frame">
                   <img
-                    src="/dervale/providers.png"
-                    alt="Dervale AI provider credential management"
+                    src="/marden-row/action-center.png"
+                    alt="Marden Row Action Center"
                   />
                 </div>
 
                 <figcaption>
-                  <span>04 / PROVIDER ACCESS</span>
+                  <span>03 / ACTION CENTER</span>
 
                   <strong>
-                    Encrypted provider credentials with
-                    verification and lifecycle controls.
+                    Operational signals converted into clear,
+                    prioritized next actions.
                   </strong>
                 </figcaption>
               </figure>
             </div>
 
-            <div className="dervale-product-note">
-              <span>WHAT THE UI PROVES</span>
+            <div className="case-features">
+              <article>
+                <span>05</span>
+
+                <h3>Promise Intelligence</h3>
+
+                <p>
+                  Extracts and reviews client commitments so
+                  important promises do not disappear inside
+                  documents, conversations or project history.
+                </p>
+              </article>
+
+              <article>
+                <span>06</span>
+
+                <h3>Change Orders</h3>
+
+                <p>
+                  Turns approved scope expansion into structured
+                  commercial work with pricing, margin and
+                  approval context.
+                </p>
+              </article>
+
+              <article>
+                <span>07</span>
+
+                <h3>Revenue at Risk</h3>
+
+                <p>
+                  Gives the agency a portfolio-level view of
+                  projects where delivery pressure or margin
+                  exposure needs attention.
+                </p>
+              </article>
+
+              <article>
+                <span>08</span>
+
+                <h3>Team + access</h3>
+
+                <p>
+                  Multi-tenant organizations, role-based access,
+                  invitations and secure account flows support
+                  real teams instead of a single-user demo.
+                </p>
+              </article>
+            </div>
+
+            <div className="marden-product-note">
+              <span>WHAT THE PRODUCT PROVES</span>
 
               <p>
-                Dervale is not a thin interface around a model
-                call. The product manages the operational layer
-                around AI workloads.
+                Marden Row is built as a real SaaS product:
+                multi-tenant data, authorization, AI workflows,
+                billing, auditability, production deployment and
+                end-to-end operational logic all live behind the
+                same product surface.
               </p>
-            </div>
-
-            {/* CHAT + LOGIN */}
-            <div className="dervale-shot-pair dervale-shot-pair-bottom">
-              <figure className="dervale-shot dervale-shot-chat">
-                <div className="dervale-shot-frame">
-                  <img
-                    src="/dervale/chat.png"
-                    alt="Dervale gateway conversation using OpenAI"
-                  />
-                </div>
-
-                <figcaption>
-                  <span>
-                    05 / GATEWAY WORKSPACE
-                  </span>
-
-                  <strong>
-                    Stateful conversations with provider-aware
-                    execution and persisted history.
-                  </strong>
-                </figcaption>
-              </figure>
-
-              <figure className="dervale-shot dervale-shot-login">
-                <div className="dervale-shot-frame">
-                  <img
-                    src="/dervale/login.png"
-                    alt="Dervale secure workspace authentication"
-                  />
-                </div>
-
-                <figcaption>
-                  <span>06 / ACCESS</span>
-
-                  <strong>
-                    Authentication and account recovery around a
-                    private infrastructure workspace.
-                  </strong>
-                </figcaption>
-              </figure>
             </div>
           </section>
 
-          {/* ENGINEERING STORY */}
           <div className="engineering-spread">
             <div className="engineering-title">
               <p className="case-label">
@@ -694,25 +681,25 @@ function App() {
               </p>
 
               <h3>
-                Not just another
+                Not another
                 <br />
-                <em>AI wrapper.</em>
+                <em>project manager.</em>
               </h3>
             </div>
 
             <div className="engineering-copy">
               <p>
-                The interesting part of Dervale is the
-                infrastructure around the AI call:
-                authentication, provider configuration,
-                credentials, developer access and creating one
-                boundary between applications and external AI
-                services.
+                The interesting part of Marden Row is the
+                connection between product operations and
+                commercial intelligence: tenant isolation,
+                role-based access, project context, commitments,
+                scope assessment, change orders, financial
+                profiles, AI usage and billing.
               </p>
 
               <p>
-                The project is structured as a product platform
-                rather than a single prompt interface.
+                It is structured as a production SaaS platform,
+                not a collection of disconnected AI features.
               </p>
             </div>
 
@@ -722,17 +709,12 @@ function App() {
               </span>
 
               <strong>
-                I can build the infrastructure around an AI
-                product, not only the AI feature itself.
+                I can take a B2B SaaS product from architecture
+                and security through AI workflows, billing,
+                testing and production deployment.
               </strong>
             </aside>
           </div>
-
-          {/*
-            IMPORTANT:
-            Dervale source repository is intentionally private.
-            Do not add its private GitHub repository URL here.
-          */}
 
           <div className="case-stack">
             <div>
@@ -741,17 +723,17 @@ function App() {
               </span>
 
               <p>
-                Java · Spring Boot · React · PostgreSQL · REST APIs
-                · Gradle
+                Next.js · React · TypeScript · Hono · PostgreSQL ·
+                Prisma · Razorpay · AI APIs
               </p>
             </div>
 
             <a
-              href="https://dervale.com"
+              href="https://mardenrow.com"
               target="_blank"
               rel="noreferrer"
             >
-              View live Dervale
+              View live Marden Row
               <External />
             </a>
           </div>

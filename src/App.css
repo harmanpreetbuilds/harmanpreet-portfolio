@@ -333,7 +333,7 @@ body {
   min-height: 570px;
 }
 
-.dervale-preview {
+.marden-preview {
   position: absolute;
 
   top: 66px;
@@ -364,7 +364,7 @@ body {
   text-transform: uppercase;
 }
 
-.dervale-mark {
+.marden-mark {
   position: absolute;
 
   top: 50%;
@@ -387,7 +387,7 @@ body {
   transform: translate(-50%, -53%);
 }
 
-.dervale-preview-bottom {
+.marden-preview-bottom {
   position: absolute;
 
   right: 26px;
@@ -402,7 +402,7 @@ body {
   gap: 24px;
 }
 
-.dervale-preview-bottom span {
+.marden-preview-bottom span {
   display: block;
 
   margin-bottom: 6px;
@@ -417,7 +417,7 @@ body {
   text-transform: uppercase;
 }
 
-.dervale-preview-bottom h2 {
+.marden-preview-bottom h2 {
   margin: 0;
 
   font-family: var(--serif);
@@ -764,10 +764,10 @@ body {
 
 
 /* =========================================================
-   DERVALE PROJECT CARD
+   MARDEN ROW PROJECT CARD
    ========================================================= */
 
-.project-dervale {
+.project-marden {
   min-height: 640px;
 
   padding: 30px;
@@ -776,7 +776,7 @@ body {
   background: var(--dark);
 }
 
-.dervale-visual {
+.marden-visual {
   position: relative;
 
   height: 335px;
@@ -1326,10 +1326,10 @@ body {
 
 
 /* =========================================================
-   DERVALE CASE STUDY — GLOBAL
+   MARDEN ROW CASE STUDY — GLOBAL
    ========================================================= */
 
-.dervale-case-study {
+.marden-case-study {
   margin-top: 20px;
   padding: 0 max(60px, calc((100vw - 1080px) / 2));
 
@@ -1337,7 +1337,7 @@ body {
   background: var(--dark);
 }
 
-.dervale-case-study p {
+.marden-case-study p {
   color: var(--dark-muted);
 
   font-size: 13px;
@@ -1345,7 +1345,7 @@ body {
   line-height: 1.7;
 }
 
-.dervale-case-study .case-label {
+.marden-case-study .case-label {
   color: #83877c;
 }
 
@@ -1747,14 +1747,14 @@ body {
 
 
 /* =========================================================
-   INSIDE DERVALE
+   INSIDE MARDEN ROW
    ========================================================= */
 
-.inside-dervale {
+.inside-marden {
   padding: 120px 0 130px;
 }
 
-.inside-dervale-heading {
+.inside-marden-heading {
   display: grid;
 
   grid-template-columns:
@@ -1769,11 +1769,11 @@ body {
   margin-bottom: 76px;
 }
 
-.inside-dervale-heading .case-label {
+.inside-marden-heading .case-label {
   margin-top: 8px;
 }
 
-.inside-dervale-heading h3 {
+.inside-marden-heading h3 {
   margin: 0;
 
   font-family: var(--serif);
@@ -1785,24 +1785,24 @@ body {
   line-height: 0.94;
 }
 
-.inside-dervale-heading h3 em {
+.inside-marden-heading h3 em {
   color: var(--yellow);
 
   font-style: italic;
 }
 
-.inside-dervale-heading > p:last-child {
+.inside-marden-heading > p:last-child {
   margin-top: 7px;
 }
 
 
 /* screenshots */
 
-.dervale-shot {
+.marden-shot {
   margin: 0;
 }
 
-.dervale-shot-frame {
+.marden-shot-frame {
   overflow: hidden;
 
   border: 1px solid rgba(238, 235, 225, 0.18);
@@ -1813,18 +1813,18 @@ body {
     0 30px 64px rgba(0, 0, 0, 0.28);
 }
 
-.dervale-shot-frame img {
+.marden-shot-frame img {
   width: 100%;
   height: auto;
 
   transition: transform 400ms ease;
 }
 
-.dervale-shot:hover img {
+.marden-shot:hover img {
   transform: scale(1.006);
 }
 
-.dervale-shot figcaption {
+.marden-shot figcaption {
   display: flex;
 
   align-items: flex-start;
@@ -1835,7 +1835,7 @@ body {
   padding-top: 16px;
 }
 
-.dervale-shot figcaption span {
+.marden-shot figcaption span {
   color: #7e8278;
 
   font-family: var(--mono);
@@ -1846,7 +1846,7 @@ body {
   white-space: nowrap;
 }
 
-.dervale-shot figcaption strong {
+.marden-shot figcaption strong {
   max-width: 530px;
 
   color: #b8bab1;
@@ -1862,33 +1862,33 @@ body {
 
 /* hero screenshot */
 
-.dervale-shot-hero {
+.marden-shot-hero {
   width: 92%;
 
   margin-left: auto;
 }
 
-.dervale-shot-hero .dervale-shot-frame {
+.marden-shot-hero .marden-shot-frame {
   transform: rotate(0.25deg);
 }
 
 
 /* comparison */
 
-.dervale-shot-compare {
+.marden-shot-compare {
   width: 96%;
 
   margin-top: 110px;
 }
 
-.dervale-shot-compare .dervale-shot-frame {
+.marden-shot-compare .marden-shot-frame {
   transform: rotate(-0.2deg);
 }
 
 
 /* paired screenshots */
 
-.dervale-shot-pair {
+.marden-shot-pair {
   display: grid;
 
   grid-template-columns:
@@ -1902,22 +1902,22 @@ body {
   margin-top: 110px;
 }
 
-.dervale-shot-developers {
+.marden-shot-developers {
   margin-top: 75px;
 }
 
-.dervale-shot-developers .dervale-shot-frame {
+.marden-shot-developers .marden-shot-frame {
   transform: rotate(-0.5deg);
 }
 
-.dervale-shot-providers .dervale-shot-frame {
+.marden-shot-providers .marden-shot-frame {
   transform: rotate(0.45deg);
 }
 
 
 /* yellow note */
 
-.dervale-product-note {
+.marden-product-note {
   width: min(520px, 70%);
 
   margin:
@@ -1939,7 +1939,7 @@ body {
   transform: rotate(-1.25deg);
 }
 
-.dervale-product-note span {
+.marden-product-note span {
   display: block;
 
   margin-bottom: 14px;
@@ -1950,7 +1950,7 @@ body {
   letter-spacing: 0.07em;
 }
 
-.dervale-product-note p {
+.marden-product-note p {
   margin: 0 !important;
 
   color: #171913 !important;
@@ -1966,7 +1966,7 @@ body {
 
 /* chat + login */
 
-.dervale-shot-pair-bottom {
+.marden-shot-pair-bottom {
   grid-template-columns:
     1.25fr
     0.75fr;
@@ -1974,15 +1974,15 @@ body {
   margin-top: 120px;
 }
 
-.dervale-shot-chat .dervale-shot-frame {
+.marden-shot-chat .marden-shot-frame {
   transform: rotate(0.3deg);
 }
 
-.dervale-shot-login {
+.marden-shot-login {
   margin-top: 90px;
 }
 
-.dervale-shot-login .dervale-shot-frame {
+.marden-shot-login .marden-shot-frame {
   background: #f5f5f3;
 
   transform: rotate(-0.65deg);
@@ -2438,7 +2438,7 @@ footer {
     font-size: clamp(62px, 6.4vw, 86px);
   }
 
-  .dervale-preview {
+  .marden-preview {
     width: 390px;
   }
 
@@ -2462,18 +2462,18 @@ footer {
       minmax(300px, 0.7fr);
   }
 
-  .dervale-case-study {
+  .marden-case-study {
     padding-right: 50px;
     padding-left: 50px;
   }
 
-  .inside-dervale-heading {
+  .inside-marden-heading {
     grid-template-columns:
       0.4fr
       1fr;
   }
 
-  .inside-dervale-heading > p:last-child {
+  .inside-marden-heading > p:last-child {
     grid-column: 2;
   }
 
@@ -2535,7 +2535,7 @@ footer {
     margin-top: 20px;
   }
 
-  .dervale-preview {
+  .marden-preview {
     right: 5%;
 
     width: 430px;
@@ -2585,7 +2585,7 @@ footer {
       auto;
   }
 
-  .dervale-case-study {
+  .marden-case-study {
     padding-right: 32px;
     padding-left: 32px;
   }
@@ -2618,34 +2618,34 @@ footer {
     border-bottom: 1px solid var(--dark-line);
   }
 
-  .inside-dervale {
+  .inside-marden {
     padding-top: 90px;
     padding-bottom: 95px;
   }
 
-  .inside-dervale-heading {
+  .inside-marden-heading {
     grid-template-columns: 1fr;
 
     gap: 18px;
   }
 
-  .inside-dervale-heading > p:last-child {
+  .inside-marden-heading > p:last-child {
     grid-column: auto;
 
     max-width: 580px;
   }
 
-  .dervale-shot-hero,
-  .dervale-shot-compare {
+  .marden-shot-hero,
+  .marden-shot-compare {
     width: 100%;
   }
 
-  .dervale-shot-compare {
+  .marden-shot-compare {
     margin-top: 75px;
   }
 
-  .dervale-shot-pair,
-  .dervale-shot-pair-bottom {
+  .marden-shot-pair,
+  .marden-shot-pair-bottom {
     grid-template-columns: 1fr;
 
     gap: 70px;
@@ -2653,12 +2653,12 @@ footer {
     margin-top: 80px;
   }
 
-  .dervale-shot-developers,
-  .dervale-shot-login {
+  .marden-shot-developers,
+  .marden-shot-login {
     margin-top: 0;
   }
 
-  .dervale-product-note {
+  .marden-product-note {
     width: 80%;
 
     margin-top: 85px;
@@ -2766,7 +2766,7 @@ footer {
     margin-top: 10px;
   }
 
-  .dervale-preview {
+  .marden-preview {
     top: 62px;
     right: 0;
 
@@ -2776,20 +2776,20 @@ footer {
     padding: 20px;
   }
 
-  .dervale-mark {
+  .marden-mark {
     width: 110px;
     height: 110px;
 
     font-size: 53px;
   }
 
-  .dervale-preview-bottom {
+  .marden-preview-bottom {
     right: 20px;
     bottom: 20px;
     left: 20px;
   }
 
-  .dervale-preview-bottom h2 {
+  .marden-preview-bottom h2 {
     font-size: 32px;
   }
 
@@ -2855,14 +2855,14 @@ footer {
     font-size: 52px;
   }
 
-  .project-dervale,
+  .project-marden,
   .project-syncboard {
     min-height: 540px;
 
     padding: 22px;
   }
 
-  .dervale-visual {
+  .marden-visual {
     height: 280px;
   }
 
@@ -2911,7 +2911,7 @@ footer {
     width: 94%;
   }
 
-  .dervale-case-study {
+  .marden-case-study {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -2953,15 +2953,15 @@ footer {
     border-bottom: 1px solid var(--dark-line);
   }
 
-  .inside-dervale-heading h3 {
+  .inside-marden-heading h3 {
     font-size: 45px;
   }
 
-  .dervale-shot figcaption {
+  .marden-shot figcaption {
     display: block;
   }
 
-  .dervale-shot figcaption strong {
+  .marden-shot figcaption strong {
     display: block;
 
     margin-top: 8px;
@@ -2969,16 +2969,16 @@ footer {
     text-align: left;
   }
 
-  .dervale-shot-hero .dervale-shot-frame,
-  .dervale-shot-compare .dervale-shot-frame,
-  .dervale-shot-developers .dervale-shot-frame,
-  .dervale-shot-providers .dervale-shot-frame,
-  .dervale-shot-chat .dervale-shot-frame,
-  .dervale-shot-login .dervale-shot-frame {
+  .marden-shot-hero .marden-shot-frame,
+  .marden-shot-compare .marden-shot-frame,
+  .marden-shot-developers .marden-shot-frame,
+  .marden-shot-providers .marden-shot-frame,
+  .marden-shot-chat .marden-shot-frame,
+  .marden-shot-login .marden-shot-frame {
     transform: none;
   }
 
-  .dervale-product-note {
+  .marden-product-note {
     width: 94%;
 
     margin-right: auto;
@@ -2987,7 +2987,7 @@ footer {
     padding: 26px;
   }
 
-  .dervale-product-note p {
+  .marden-product-note p {
     font-size: 27px !important;
   }
 
