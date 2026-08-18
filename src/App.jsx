@@ -1,6 +1,6 @@
 import './App.css'
 
-const CONTACT_EMAIL = 'harmanpreet.builds@gmail.com'
+const CONTACT_EMAIL = 'harmanpreet@harmanpreet.dev'
 
 const Arrow = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -59,7 +59,7 @@ function App() {
         <section className="hero" id="top">
           <div className="hero-left">
             <p className="micro-label">
-              SOFTWARE ENGINEER · BACKEND · B2B SAAS · AI SYSTEMS
+              BACKEND & AI PRODUCT ENGINEER · B2B SAAS · SYSTEMS
             </p>
 
             <h1>
@@ -72,10 +72,10 @@ function App() {
 
             <div className="hero-bottom">
               <p className="intro">
-                Backend systems, B2B SaaS and
-                cross-platform products built for real-world use.
-                Open to software engineering roles, contract work
-                and selected freelance builds.
+                I build backend-heavy SaaS, AI infrastructure
+                and production software from architecture through
+                deployment. Open to engineering roles, contract
+                work and selected freelance builds.
               </p>
 
               <a className="text-link" href="#work">
@@ -307,40 +307,69 @@ function App() {
               </div>
             </article>
 
-            {/* AI MOCK INTERVIEW */}
-            <article className="project-card project-interview">
+            <article className="project-card project-interview project-dervale">
               <div className="project-meta-row">
                 <span>03</span>
-                <span>AI PRODUCT</span>
+                <span>AI INFRASTRUCTURE / SAAS</span>
+                <span>2026</span>
               </div>
 
-              <div className="interview-art">
-                <span className="quote-mark">“</span>
-
-                <p>
-                  Tell me about a difficult engineering
-                  decision you made.
-                </p>
-
-                <div className="voice-bars">
-                  <i />
-                  <i />
-                  <i />
-                  <i />
-                  <i />
-                  <i />
-                  <i />
+              <div className="dervale-art">
+                <div className="dervale-request">
+                  REQUEST
                 </div>
+
+                <div className="dervale-router">
+                  <span>SMART ROUTE</span>
+                  <strong>D</strong>
+                </div>
+
+                <div className="dervale-provider dervale-provider-one">
+                  OPENAI
+                </div>
+
+                <div className="dervale-provider dervale-provider-two">
+                  GEMINI
+                </div>
+
+                <div className="dervale-provider dervale-provider-three">
+                  GROQ
+                </div>
+
+                <div className="dervale-route dervale-route-one" />
+                <div className="dervale-route dervale-route-two" />
+                <div className="dervale-route dervale-route-three" />
               </div>
 
               <div className="project-copy compact">
                 <div>
-                  <h3>AI Mock Interview</h3>
+                  <h3>Dervale</h3>
 
                   <p className="project-subtitle">
-                    Intelligent interview preparation
+                    Multi-provider AI gateway platform
                   </p>
                 </div>
+
+                <p className="dervale-description">
+                  Production AI infrastructure for multi-tenant
+                  routing, API keys, usage controls, provider
+                  abstraction, observability and billing.
+                </p>
+              </div>
+
+              <div className="project-footer dervale-footer">
+                <div className="plain-stack">
+                  Java / Spring Boot / PostgreSQL / Redis / React
+                </div>
+
+                <a
+                  href="https://dervale.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View live
+                  <External />
+                </a>
               </div>
             </article>
 
@@ -879,7 +908,7 @@ function App() {
       {/* FOOTER */}
       <footer>
         <span>HARMANPREET</span>
-        <span>SOFTWARE ENGINEER</span>
+        <span>BACKEND & AI PRODUCT ENGINEER</span>
         <span>© 2026</span>
       </footer>
     </div>

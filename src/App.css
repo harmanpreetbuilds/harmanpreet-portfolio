@@ -3092,3 +3092,109 @@ footer {
     animation-duration: 0.01ms !important;
   }
 }
+
+.project-dervale {
+  color: #f6e9dc;
+}
+
+.dervale-art {
+  position: relative;
+  min-height: 240px;
+  margin-top: 12px;
+}
+
+.dervale-request,
+.dervale-provider {
+  position: absolute;
+  z-index: 3;
+  padding: 8px 10px;
+  border: 1px solid rgba(246, 233, 220, 0.42);
+  font-family: var(--mono);
+  font-size: 7px;
+  letter-spacing: 0.08em;
+}
+
+.dervale-request {
+  top: 99px;
+  left: 0;
+}
+
+.dervale-router {
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  z-index: 4;
+  width: 122px;
+  height: 122px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(246, 233, 220, 0.5);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.dervale-router span {
+  position: absolute;
+  top: 25px;
+  font-family: var(--mono);
+  font-size: 6px;
+  letter-spacing: 0.08em;
+}
+
+.dervale-router strong {
+  font-family: var(--serif);
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.dervale-provider-one {
+  top: 18px;
+  right: 0;
+}
+
+.dervale-provider-two {
+  top: 102px;
+  right: 0;
+}
+
+.dervale-provider-three {
+  right: 12%;
+  bottom: 12px;
+}
+
+.dervale-route {
+  position: absolute;
+  z-index: 1;
+  height: 1px;
+  background: rgba(246, 233, 220, 0.28);
+  transform-origin: left center;
+}
+
+.dervale-route-one {
+  top: 76px;
+  left: 58%;
+  width: 32%;
+  transform: rotate(-17deg);
+}
+
+.dervale-route-two {
+  top: 120px;
+  left: 60%;
+  width: 29%;
+}
+
+.dervale-route-three {
+  top: 151px;
+  left: 58%;
+  width: 28%;
+  transform: rotate(25deg);
+}
+
+.dervale-description {
+  margin-top: 20px !important;
+  color: #efb0a3 !important;
+}
+
+.dervale-footer {
+  border-top-color: rgba(246, 233, 220, 0.22);
+}
