@@ -362,14 +362,93 @@ function App() {
                   Java / Spring Boot / PostgreSQL / Redis / React
                 </div>
 
-                <a
-                  href="https://dervale.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View live
-                  <External />
-                </a>
+                <div className="dervale-card-links">
+                  <a href="#dervale">
+                    Case study
+                    <Arrow />
+                  </a>
+
+                  <a
+                    href="https://dervale.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live
+                    <External />
+                  </a>
+                </div>
+              </div>
+            </article>
+
+
+            <article className="project-card project-ladewise">
+              <div className="project-meta-row ladewise-meta">
+                <span>04</span>
+                <span>EXPORT OPERATIONS / B2B SOFTWARE</span>
+                <span>2026</span>
+              </div>
+
+              <div className="ladewise-art">
+                <div className="lw-sheet lw-sheet-back" />
+                <div className="lw-sheet lw-sheet-middle" />
+
+                <div className="lw-sheet lw-sheet-front">
+                  <div className="lw-sheet-head">
+                    <span>EXPORT DOCUMENT</span>
+                    <strong>LW</strong>
+                  </div>
+
+                  <i className="lw-rule lw-rule-wide" />
+                  <i className="lw-rule" />
+                  <i className="lw-rule lw-rule-short" />
+
+                  <div className="lw-status-stamp">
+                    REVIEWED
+                  </div>
+                </div>
+
+                <div className="lw-card-flow">
+                  PREPARE → REVIEW → APPROVE
+                </div>
+              </div>
+
+              <div className="project-copy compact ladewise-copy">
+                <div>
+                  <h3>Ladewise</h3>
+
+                  <p className="project-subtitle">
+                    Export documentation workflow
+                  </p>
+                </div>
+
+                <p>
+                  A production-oriented system for preparing,
+                  reviewing, approving and retaining export
+                  documentation with organization-scoped access
+                  and explicit document history.
+                </p>
+              </div>
+
+              <div className="project-footer ladewise-footer">
+                <div className="plain-stack">
+                  Java / Spring Boot / Next.js / PostgreSQL / S3
+                </div>
+
+                <div className="ladewise-card-links">
+                  <a href="#ladewise">
+                    Case study
+                    <Arrow />
+                  </a>
+
+                  <a
+                    href="https://github.com/harmanpreetbuilds/ladewise-showcase"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                    <External />
+                  </a>
+                </div>
               </div>
             </article>
 
@@ -587,17 +666,18 @@ function App() {
             <figure className="marden-shot marden-shot-hero">
               <div className="marden-shot-frame">
                 <img
-                  src="/marden-row/revenue-risk.png"
-                  alt="Marden Row Revenue at Risk intelligence dashboard"
+                  src="/images/marden-row/marden-row-commercial-overview.png"
+                  alt="Marden Row commercial overview showing agency risks, scope exposure and commercial actions"
                 />
               </div>
 
               <figcaption>
-                <span>01 / COMMERCIAL INTELLIGENCE</span>
+                <span>01 / COMMERCIAL OVERVIEW</span>
 
                 <strong>
-                  Portfolio-level revenue exposure, margin and
-                  delivery risk in one operating view.
+                  Portfolio-level visibility into scope risk,
+                  commitments, commercial exposure and the
+                  actions that need attention.
                 </strong>
               </figcaption>
             </figure>
@@ -606,17 +686,18 @@ function App() {
               <figure className="marden-shot marden-shot-developers">
                 <div className="marden-shot-frame">
                   <img
-                    src="/marden-row/agencyyy.png"
-                    alt="AGENCYYY agency intelligence workspace"
+                    src="/images/marden-row/marden-row-scope-changes.png"
+                    alt="Marden Row Scope Guardian reviewing client requests against the agreed project scope"
                   />
                 </div>
 
                 <figcaption>
-                  <span>02 / AGENCYYY</span>
+                  <span>02 / SCOPE GUARDIAN</span>
 
                   <strong>
-                    Agency intelligence grounded in real clients,
-                    projects and operating context.
+                    New client requests are compared against the
+                    original commitment before extra work quietly
+                    enters delivery.
                   </strong>
                 </figcaption>
               </figure>
@@ -624,21 +705,40 @@ function App() {
               <figure className="marden-shot marden-shot-providers">
                 <div className="marden-shot-frame">
                   <img
-                    src="/marden-row/action-center.png"
-                    alt="Marden Row Action Center"
+                    src="/images/marden-row/marden-row-agencyyy-scope-verdict.png"
+                    alt="AGENCYYY explaining why a client request falls outside the agreed project scope"
                   />
                 </div>
 
                 <figcaption>
-                  <span>03 / ACTION CENTER</span>
+                  <span>03 / AGENCYYY</span>
 
                   <strong>
-                    Operational signals converted into clear,
-                    prioritized next actions.
+                    AI reasoning grounded in project commitments,
+                    scope evidence and real delivery context.
                   </strong>
                 </figcaption>
               </figure>
             </div>
+
+            <figure className="marden-shot marden-shot-hero">
+              <div className="marden-shot-frame">
+                <img
+                  src="/images/marden-row/marden-row-action-center.png"
+                  alt="Marden Row Action Center showing prioritized commercial and delivery actions"
+                />
+              </div>
+
+              <figcaption>
+                <span>04 / ACTION CENTER</span>
+
+                <strong>
+                  Commercial and delivery signals become a
+                  prioritized queue of actions instead of
+                  disappearing inside project activity.
+                </strong>
+              </figcaption>
+            </figure>
 
             <div className="case-features">
               <article>
@@ -763,6 +863,758 @@ function App() {
               rel="noreferrer"
             >
               View live Marden Row
+              <External />
+            </a>
+          </div>
+        </section>
+
+
+        {/* DERVALE CASE STUDY */}
+        <section
+          className="dervale-case-study"
+          id="dervale"
+        >
+          <div className="dervale-case-header">
+            <p className="case-number">
+              CASE FILE 02 / AI INFRASTRUCTURE
+            </p>
+
+            <div className="dervale-case-heading">
+              <h2>
+                One gateway.
+                <br />
+                <em>Many models.</em>
+              </h2>
+
+              <div className="dervale-case-intro">
+                <span>
+                  DERVALE / MULTI-PROVIDER AI GATEWAY
+                </span>
+
+                <p>
+                  Dervale is a production AI gateway for teams
+                  that need one controlled layer between their
+                  applications and model providers. Routing,
+                  credentials, usage, policy, observability and
+                  billing live behind the same interface.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="dervale-case-layout">
+            <article className="dervale-problem">
+              <span className="case-label">
+                THE PROBLEM
+              </span>
+
+              <h3>
+                Provider integrations
+                <br />
+                <em>multiply fast.</em>
+              </h3>
+
+              <p>
+                Adding one model API is easy. Running several
+                providers across real applications is where the
+                engineering problem begins: credentials,
+                routing, failures, usage limits, cost visibility
+                and tenant boundaries all start spreading through
+                product code.
+              </p>
+
+              <p>
+                Dervale moves those concerns into one gateway so
+                applications integrate with a stable control
+                plane instead of provider-specific infrastructure.
+              </p>
+
+              <div className="dervale-principle-note">
+                <span>DESIGN PRINCIPLE</span>
+
+                <strong>
+                  provider complexity belongs in infrastructure,
+                  not inside every application.
+                </strong>
+              </div>
+            </article>
+
+            <div className="dervale-system-board">
+              <div className="board-caption">
+                <span>REQUEST PATH</span>
+                <span>DERVALE / 02</span>
+              </div>
+
+              <div className="dervale-system-map">
+                <div className="dv-app-node">
+                  <span>CLIENT</span>
+                  <strong>Application</strong>
+                </div>
+
+                <div className="dv-line dv-line-in" />
+
+                <div className="dv-core">
+                  <small>CONTROL PLANE</small>
+                  <strong>D</strong>
+                  <span>Dervale</span>
+                </div>
+
+                <div className="dv-line dv-line-openai" />
+                <div className="dv-line dv-line-gemini" />
+                <div className="dv-line dv-line-groq" />
+
+                <div className="dv-provider dv-openai">
+                  <span>PROVIDER</span>
+                  <strong>OpenAI</strong>
+                </div>
+
+                <div className="dv-provider dv-gemini">
+                  <span>PROVIDER</span>
+                  <strong>Gemini</strong>
+                </div>
+
+                <div className="dv-provider dv-groq">
+                  <span>PROVIDER</span>
+                  <strong>Groq</strong>
+                </div>
+
+                <div className="dv-control dv-auth">
+                  <span>CONTROL</span>
+                  <strong>API keys</strong>
+                </div>
+
+                <div className="dv-control dv-observe">
+                  <span>OBSERVE</span>
+                  <strong>Usage + logs</strong>
+                </div>
+              </div>
+
+              <p className="board-footnote">
+                Authentication, tenant context, policy and routing
+                are resolved before the request reaches a model
+                provider.
+              </p>
+            </div>
+          </div>
+
+          <div className="dervale-feature-grid">
+            <article>
+              <span>01</span>
+              <h3>Provider abstraction</h3>
+              <p>
+                Applications call one gateway while provider
+                credentials and implementation details stay
+                behind the control plane.
+              </p>
+            </article>
+
+            <article>
+              <span>02</span>
+              <h3>Gateway keys</h3>
+              <p>
+                Scoped credentials support controlled application
+                access without exposing upstream provider secrets.
+              </p>
+            </article>
+
+            <article>
+              <span>03</span>
+              <h3>Usage + cost</h3>
+              <p>
+                Requests, token consumption, provider distribution
+                and estimated spend are tracked at workspace level.
+              </p>
+            </article>
+
+            <article>
+              <span>04</span>
+              <h3>Provider comparison</h3>
+              <p>
+                The same prompt can execute across providers for
+                side-by-side latency, token and cost inspection.
+              </p>
+            </article>
+          </div>
+
+          <section className="inside-dervale">
+            <div className="inside-dervale-heading">
+              <p className="case-label">
+                INSIDE DERVALE
+              </p>
+
+              <h3>
+                Infrastructure should make
+                <br />
+                <em>the invisible visible.</em>
+              </h3>
+
+              <p>
+                The product surface exposes the operational
+                information an engineering team needs without
+                turning the gateway into another generic SaaS
+                dashboard.
+              </p>
+            </div>
+
+            <div className="dervale-ui-proof">
+              <article className="dv-proof dv-proof-analytics">
+                <div className="dv-proof-top">
+                  <span>OBSERVE / 30 DAYS</span>
+                  <strong>AI usage & cost</strong>
+                </div>
+
+                <div className="dv-metrics">
+                  <div>
+                    <span>SUCCESSFUL REQUESTS</span>
+                    <strong>25</strong>
+                  </div>
+
+                  <div>
+                    <span>TOTAL TOKENS</span>
+                    <strong>7.16K</strong>
+                  </div>
+
+                  <div>
+                    <span>ESTIMATED COST</span>
+                    <strong>$0.00661</strong>
+                  </div>
+
+                  <div>
+                    <span>AVG / REQUEST</span>
+                    <strong>286</strong>
+                  </div>
+                </div>
+
+                <div className="dv-chart">
+                  <i />
+                  <i />
+                  <i />
+                  <i />
+                  <i />
+                  <i />
+                  <i className="is-peak" />
+                  <i />
+                  <i />
+                  <i />
+                  <i />
+                  <i />
+                </div>
+
+                <div className="dv-proof-caption">
+                  01 / USAGE TELEMETRY
+                </div>
+              </article>
+
+              <div className="dv-proof-pair">
+                <article className="dv-proof">
+                  <div className="dv-proof-top">
+                    <span>OPERATE</span>
+                    <strong>Provider benchmark</strong>
+                  </div>
+
+                  <div className="dv-provider-results">
+                    <div>
+                      <span>Groq</span>
+                      <small>FASTEST</small>
+                    </div>
+                    <div>
+                      <span>OpenAI</span>
+                      <small>CHEAPEST</small>
+                    </div>
+                    <div>
+                      <span>Gemini</span>
+                      <small>COMPARED</small>
+                    </div>
+                  </div>
+
+                  <p>
+                    Parallel execution compares provider response,
+                    latency, token usage and estimated cost.
+                  </p>
+
+                  <div className="dv-proof-caption">
+                    02 / COMPARE
+                  </div>
+                </article>
+
+                <article className="dv-proof">
+                  <div className="dv-proof-top">
+                    <span>CONTROL</span>
+                    <strong>Programmatic access</strong>
+                  </div>
+
+                  <div className="dv-key-row">
+                    <div>
+                      <strong>Observability Demo</strong>
+                      <span>agw_test_••••••••</span>
+                    </div>
+                    <small>ACTIVE</small>
+                  </div>
+
+                  <div className="dv-key-row">
+                    <div>
+                      <strong>Buyer Demo API</strong>
+                      <span>agw_test_••••••••</span>
+                    </div>
+                    <small>ACTIVE</small>
+                  </div>
+
+                  <p>
+                    Secrets are shown once while Dervale retains
+                    only cryptographic hashes.
+                  </p>
+
+                  <div className="dv-proof-caption">
+                    03 / API KEYS
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <div className="dervale-engineering-spread">
+            <div>
+              <p className="case-label">
+                ENGINEERING STORY
+              </p>
+
+              <h3>
+                Not an
+                <br />
+                <em>AI wrapper.</em>
+              </h3>
+            </div>
+
+            <div className="dervale-engineering-copy">
+              <p>
+                The interesting part of Dervale is the boundary
+                between application traffic and model providers:
+                tenant isolation, JWT authentication, gateway
+                keys, provider credentials, routing, usage
+                policies, request logging, billing and operational
+                visibility.
+              </p>
+
+              <p>
+                The gateway exposes an OpenAI-compatible access
+                layer so applications can adopt centralized
+                infrastructure without rewriting their entire AI
+                integration.
+              </p>
+            </div>
+
+            <aside className="dervale-proof-note">
+              <span>WHAT I WANTED TO PROVE</span>
+
+              <strong>
+                I can build AI infrastructure as a production
+                system — not just connect an interface to a model
+                API.
+              </strong>
+            </aside>
+          </div>
+
+          <div className="dervale-case-stack">
+            <div>
+              <span className="case-label">
+                CORE STACK
+              </span>
+
+              <p>
+                Java · Spring Boot · PostgreSQL · Redis · React ·
+                JWT · REST · OpenAI-compatible API
+              </p>
+            </div>
+
+            <div className="dervale-case-actions">
+              <a
+                href="https://dervale.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View live Dervale
+                <External />
+              </a>
+
+              <a
+                href="https://github.com/harmanpreetbuilds/dervale-showcase"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Engineering showcase
+                <External />
+              </a>
+            </div>
+          </div>
+        </section>
+
+
+        <section className="ladewise-case-study" id="ladewise">
+          <div className="ladewise-case-header">
+            <p className="case-number">
+              CASE FILE 03 / OPERATIONAL SOFTWARE
+            </p>
+
+            <div className="ladewise-case-heading">
+              <h2>
+                Export paperwork.
+                <br />
+                <em>Under control.</em>
+              </h2>
+
+              <div className="ladewise-case-intro">
+                <span>
+                  LADEWISE / EXPORT DOCUMENTATION SYSTEM
+                </span>
+
+                <p>
+                  Ladewise gives export teams a structured way to
+                  prepare, review, approve and retain commercial
+                  documentation without losing ownership, version
+                  history or operational context.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="ladewise-case-layout">
+            <article className="ladewise-problem">
+              <span className="case-label">
+                THE PROBLEM
+              </span>
+
+              <h3>
+                Documents move.
+                <br />
+                <em>Context disappears.</em>
+              </h3>
+
+              <p>
+                Export documents often move through several
+                people, corrections and approval steps. When
+                versions live across inboxes, folders and chat,
+                it becomes difficult to know which copy is
+                authoritative and what has actually been approved.
+              </p>
+
+              <p>
+                Ladewise turns that process into explicit software
+                without pretending to replace customs, banks,
+                DGFT, ICEGATE or other official infrastructure.
+              </p>
+
+              <div className="ladewise-note">
+                <span>SYSTEM BOUNDARY</span>
+
+                <strong>
+                  Support the workflow around official systems,
+                  not imitate them.
+                </strong>
+              </div>
+            </article>
+
+            <div className="ladewise-board">
+              <div className="board-caption">
+                <span>SYSTEM MAP</span>
+                <span>LADEWISE / 03</span>
+              </div>
+
+              <div className="ladewise-map">
+                <div className="lw-map-node lw-map-web">
+                  <span>INTERFACE</span>
+                  <strong>Next.js</strong>
+                </div>
+
+                <div className="lw-map-line lw-map-line-in" />
+
+                <div className="lw-map-core">
+                  <small>APPLICATION CORE</small>
+                  <strong>LW</strong>
+                  <span>Spring Boot</span>
+                </div>
+
+                <div className="lw-map-line lw-map-line-db" />
+                <div className="lw-map-line lw-map-line-files" />
+                <div className="lw-map-line lw-map-line-mail" />
+
+                <div className="lw-map-node lw-map-db">
+                  <span>STATE</span>
+                  <strong>PostgreSQL</strong>
+                </div>
+
+                <div className="lw-map-node lw-map-files">
+                  <span>FILES</span>
+                  <strong>Object storage</strong>
+                </div>
+
+                <div className="lw-map-node lw-map-mail">
+                  <span>IDENTITY</span>
+                  <strong>Email workflows</strong>
+                </div>
+
+                <div className="lw-map-control lw-map-auth">
+                  <span>SECURITY</span>
+                  <strong>Org access</strong>
+                </div>
+
+                <div className="lw-map-control lw-map-review">
+                  <span>WORKFLOW</span>
+                  <strong>Review + approval</strong>
+                </div>
+              </div>
+
+              <p className="board-footnote">
+                Identity, organization context, document state and
+                file ownership stay connected through the entire
+                workflow.
+              </p>
+            </div>
+          </div>
+
+          <div className="ladewise-feature-grid">
+            <article>
+              <span>01</span>
+              <h3>Document lifecycle</h3>
+              <p>
+                Explicit document states replace informal
+                filename-based hand-offs.
+              </p>
+            </article>
+
+            <article>
+              <span>02</span>
+              <h3>Human review</h3>
+              <p>
+                Commercially sensitive documents retain deliberate
+                review and approval steps.
+              </p>
+            </article>
+
+            <article>
+              <span>03</span>
+              <h3>Version history</h3>
+              <p>
+                Changes remain traceable so teams can understand
+                what changed and when.
+              </p>
+            </article>
+
+            <article>
+              <span>04</span>
+              <h3>Organization access</h3>
+              <p>
+                Authentication and organization boundaries keep
+                data scoped to the correct team.
+              </p>
+            </article>
+          </div>
+
+          <section className="inside-ladewise">
+            <div className="inside-ladewise-heading">
+              <p className="case-label">
+                INSIDE LADEWISE
+              </p>
+
+              <h3>
+                Workflow software should
+                <br />
+                <em>reduce ambiguity.</em>
+              </h3>
+
+              <p>
+                The product is organized around state, ownership
+                and next action rather than treating export
+                paperwork as a folder full of PDFs.
+              </p>
+            </div>
+
+            <div className="ladewise-workflow">
+              <div className="ladewise-workflow-head">
+                <span>DOCUMENT WORKFLOW</span>
+                <strong>Shipment documentation</strong>
+              </div>
+
+              <div className="ladewise-stages">
+                <article className="is-done">
+                  <span>01</span>
+                  <strong>Prepare</strong>
+                  <small>COMPLETE</small>
+                </article>
+
+                <b>→</b>
+
+                <article className="is-current">
+                  <span>02</span>
+                  <strong>Review</strong>
+                  <small>IN REVIEW</small>
+                </article>
+
+                <b>→</b>
+
+                <article>
+                  <span>03</span>
+                  <strong>Approve</strong>
+                  <small>PENDING</small>
+                </article>
+
+                <b>→</b>
+
+                <article>
+                  <span>04</span>
+                  <strong>History</strong>
+                  <small>RETAINED</small>
+                </article>
+              </div>
+
+              <div className="ladewise-register">
+                <article>
+                  <span>Commercial Invoice</span>
+                  <small>VERSION 04</small>
+                  <strong>Reviewed</strong>
+                </article>
+
+                <article>
+                  <span>Shipping Bill</span>
+                  <small>VERSION 02</small>
+                  <strong>Needs approval</strong>
+                </article>
+
+                <article>
+                  <span>Packing List</span>
+                  <small>VERSION 03</small>
+                  <strong>Approved</strong>
+                </article>
+              </div>
+            </div>
+
+            <div className="ladewise-proof-pair">
+              <article className="ladewise-proof">
+                <span className="ladewise-proof-label">
+                  DOCUMENT OUTPUT
+                </span>
+
+                <h4>Structured PDF generation</h4>
+
+                <div className="ladewise-paper">
+                  <div>
+                    <strong>COMMERCIAL INVOICE</strong>
+                    <span>EXPORT DOCUMENT</span>
+                  </div>
+
+                  <i />
+                  <i className="short" />
+
+                  <section>
+                    <b />
+                    <b />
+                    <b />
+                  </section>
+
+                  <small>VERSIONED DOCUMENT</small>
+                </div>
+
+                <p>
+                  Generated documents remain tied to application
+                  state and version history rather than becoming
+                  disconnected files.
+                </p>
+              </article>
+
+              <article className="ladewise-proof">
+                <span className="ladewise-proof-label">
+                  SECURITY MODEL
+                </span>
+
+                <h4>Explicit backend boundaries</h4>
+
+                <div className="ladewise-security">
+                  <div>
+                    <span>AUTHENTICATION</span>
+                    <strong>Spring Security</strong>
+                  </div>
+
+                  <div>
+                    <span>REQUEST SAFETY</span>
+                    <strong>CSRF + CORS</strong>
+                  </div>
+
+                  <div>
+                    <span>DATA SCOPE</span>
+                    <strong>Organization context</strong>
+                  </div>
+
+                  <div>
+                    <span>SCHEMA</span>
+                    <strong>Flyway migrations</strong>
+                  </div>
+                </div>
+
+                <p>
+                  Security is enforced by the application boundary,
+                  not by what the frontend happens to display.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <div className="ladewise-engineering">
+            <div>
+              <p className="case-label">
+                ENGINEERING STORY
+              </p>
+
+              <h3>
+                Operational software,
+                <br />
+                <em>not a document mockup.</em>
+              </h3>
+            </div>
+
+            <div className="ladewise-engineering-copy">
+              <p>
+                The Next.js interface sits in front of a Java 21
+                and Spring Boot application responsible for
+                identity, organization context, document state
+                and workflow rules.
+              </p>
+
+              <p>
+                PostgreSQL stores application state, Flyway keeps
+                schema changes versioned, and S3-compatible object
+                storage handles document files separately from the
+                relational model.
+              </p>
+            </div>
+
+            <aside className="ladewise-engineering-note">
+              <span>WHAT I WANTED TO PROVE</span>
+
+              <strong>
+                I can model a real operational workflow with
+                security, persistence, storage and human approval
+                boundaries.
+              </strong>
+            </aside>
+          </div>
+
+          <div className="ladewise-case-stack">
+            <div>
+              <span className="case-label">
+                CORE STACK
+              </span>
+
+              <p>
+                Java 21 · Spring Boot · Next.js · TypeScript ·
+                PostgreSQL · Flyway · S3-compatible storage
+              </p>
+            </div>
+
+            <a
+              href="https://github.com/harmanpreetbuilds/ladewise-showcase"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Engineering showcase
               <External />
             </a>
           </div>
