@@ -666,7 +666,7 @@ function App() {
             <figure className="marden-shot marden-shot-hero">
               <div className="marden-shot-frame">
                 <img
-                  src="/images/marden-row/marden-row-commercial-overview.png"
+                  src="/marden-row/revenue-risk.png"
                   alt="Marden Row commercial overview showing agency risks, scope exposure and commercial actions"
                 />
               </div>
@@ -686,7 +686,7 @@ function App() {
               <figure className="marden-shot marden-shot-developers">
                 <div className="marden-shot-frame">
                   <img
-                    src="/images/marden-row/marden-row-scope-changes.png"
+                    src="/marden-row/revenue-risk.png"
                     alt="Marden Row Scope Guardian reviewing client requests against the agreed project scope"
                   />
                 </div>
@@ -705,7 +705,7 @@ function App() {
               <figure className="marden-shot marden-shot-providers">
                 <div className="marden-shot-frame">
                   <img
-                    src="/images/marden-row/marden-row-agencyyy-scope-verdict.png"
+                    src="/marden-row/agencyyy.png"
                     alt="AGENCYYY explaining why a client request falls outside the agreed project scope"
                   />
                 </div>
@@ -724,7 +724,7 @@ function App() {
             <figure className="marden-shot marden-shot-hero">
               <div className="marden-shot-frame">
                 <img
-                  src="/images/marden-row/marden-row-action-center.png"
+                  src="/marden-row/action-center.png"
                   alt="Marden Row Action Center showing prioritized commercial and delivery actions"
                 />
               </div>
