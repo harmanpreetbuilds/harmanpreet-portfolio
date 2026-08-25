@@ -190,9 +190,16 @@ function App() {
               </div>
 
               <div className="marden-visual">
-                <div className="gateway-line line-a" />
-                <div className="gateway-line line-b" />
-                <div className="gateway-line line-c" />
+                <svg
+                  className="marden-preview-connectors"
+                  viewBox="0 0 100 100"
+                  preserveAspectRatio="none"
+                  aria-hidden="true"
+                >
+                  <line x1="50" y1="50" x2="14" y2="34" />
+                  <line x1="50" y1="50" x2="89" y2="21" />
+                  <line x1="50" y1="50" x2="84" y2="85" />
+                </svg>
 
                 <div className="gateway-node node-one">
                   OPS
@@ -336,9 +343,17 @@ function App() {
                   GROQ
                 </div>
 
-                <div className="dervale-route dervale-route-one" />
-                <div className="dervale-route dervale-route-two" />
-                <div className="dervale-route dervale-route-three" />
+                <svg
+                  className="dervale-preview-connectors"
+                  viewBox="0 0 1000 240"
+                  preserveAspectRatio="none"
+                  aria-hidden="true"
+                >
+                  <line x1="52" y1="112" x2="500" y2="119" />
+                  <line x1="500" y1="119" x2="955" y2="31" />
+                  <line x1="500" y1="119" x2="955" y2="115" />
+                  <line x1="500" y1="119" x2="850" y2="214" />
+                </svg>
               </div>
 
               <div className="project-copy compact">
@@ -381,7 +396,7 @@ function App() {
             </article>
 
 
-            <article className="project-card project-ladewise">
+            <article className="project-card project-ladewise selected-work-card-ladewise">
               <div className="project-meta-row ladewise-meta">
                 <span>04</span>
                 <span>EXPORT OPERATIONS / B2B SOFTWARE</span>
@@ -543,6 +558,19 @@ function App() {
               </div>
 
               <div className="architecture-map">
+                  <svg
+                    className="architecture-connectors"
+                    viewBox="0 0 100 100"
+                    preserveAspectRatio="none"
+                    aria-hidden="true"
+                  >
+                    <line x1="50" y1="50" x2="10" y2="50" />
+                    <line x1="50" y1="50" x2="36" y2="13" />
+                    <line x1="50" y1="50" x2="12" y2="86" />
+                    <line x1="50" y1="50" x2="90" y2="17" />
+                    <line x1="50" y1="50" x2="92" y2="50" />
+                    <line x1="50" y1="50" x2="88" y2="85" />
+                  </svg>
                 <div className="architecture-client">
                   <span>AGENCY</span>
                   <strong>Client delivery</strong>
@@ -559,6 +587,8 @@ function App() {
                 <div className="architecture-line line-provider-one" />
                 <div className="architecture-line line-provider-two" />
                 <div className="architecture-line line-provider-three" />
+                  <div className="architecture-line line-operations" />
+                  <div className="architecture-line line-intelligence" />
 
                 <div className="provider provider-one">
                   <span>WORK</span>
@@ -666,8 +696,8 @@ function App() {
             <figure className="marden-shot marden-shot-hero">
               <div className="marden-shot-frame">
                 <img
-                  src="/marden-row/revenue-risk.png"
-                  alt="Marden Row commercial overview showing agency risks, scope exposure and commercial actions"
+                  src="/marden-row/marden-row-commercial-overview.png"
+                  alt="Marden Row commercial overview showing delivery health and commercial risk"
                 />
               </div>
 
@@ -686,13 +716,13 @@ function App() {
               <figure className="marden-shot marden-shot-developers">
                 <div className="marden-shot-frame">
                   <img
-                    src="/marden-row/revenue-risk.png"
-                    alt="Marden Row Scope Guardian reviewing client requests against the agreed project scope"
+                    src="/marden-row/marden-row-projects.png"
+                    alt="Marden Row projects delivery register"
                   />
                 </div>
 
                 <figcaption>
-                  <span>02 / SCOPE GUARDIAN</span>
+                  <span>02 / PROJECTS</span>
 
                   <strong>
                     New client requests are compared against the
@@ -705,7 +735,7 @@ function App() {
               <figure className="marden-shot marden-shot-providers">
                 <div className="marden-shot-frame">
                   <img
-                    src="/marden-row/agencyyy.png"
+                    src="/marden-row/marden-row-agencyyy-scope-verdict.png"
                     alt="AGENCYYY explaining why a client request falls outside the agreed project scope"
                   />
                 </div>
@@ -724,7 +754,7 @@ function App() {
             <figure className="marden-shot marden-shot-hero">
               <div className="marden-shot-frame">
                 <img
-                  src="/marden-row/action-center.png"
+                  src="/marden-row/marden-row-action-center.png"
                   alt="Marden Row Action Center showing prioritized commercial and delivery actions"
                 />
               </div>
@@ -946,6 +976,19 @@ function App() {
               </div>
 
               <div className="dervale-system-map">
+                  <svg
+                    className="dv-connectors"
+                    viewBox="0 0 100 100"
+                    preserveAspectRatio="none"
+                    aria-hidden="true"
+                  >
+                    <line x1="50" y1="50" x2="10" y2="50" />
+                    <line x1="50" y1="50" x2="40" y2="13" />
+                    <line x1="50" y1="50" x2="39" y2="87" />
+                    <line x1="50" y1="50" x2="90" y2="18" />
+                    <line x1="50" y1="50" x2="90" y2="50" />
+                    <line x1="50" y1="50" x2="90" y2="83" />
+                  </svg>
                 <div className="dv-app-node">
                   <span>CLIENT</span>
                   <strong>Application</strong>
@@ -962,6 +1005,8 @@ function App() {
                 <div className="dv-line dv-line-openai" />
                 <div className="dv-line dv-line-gemini" />
                 <div className="dv-line dv-line-groq" />
+                  <div className="dv-line dv-line-auth" />
+                  <div className="dv-line dv-line-observe" />
 
                 <div className="dv-provider dv-openai">
                   <span>PROVIDER</span>
@@ -1320,6 +1365,19 @@ function App() {
               </div>
 
               <div className="ladewise-map">
+                  <svg
+                    className="lw-connectors"
+                    viewBox="0 0 100 100"
+                    preserveAspectRatio="none"
+                    aria-hidden="true"
+                  >
+                    <line x1="50" y1="50" x2="10" y2="50" />
+                    <line x1="50" y1="50" x2="40" y2="13" />
+                    <line x1="50" y1="50" x2="40" y2="87" />
+                    <line x1="50" y1="50" x2="90" y2="18" />
+                    <line x1="50" y1="50" x2="90" y2="50" />
+                    <line x1="50" y1="50" x2="89" y2="83" />
+                  </svg>
                 <div className="lw-map-node lw-map-web">
                   <span>INTERFACE</span>
                   <strong>Next.js</strong>
@@ -1336,6 +1394,8 @@ function App() {
                 <div className="lw-map-line lw-map-line-db" />
                 <div className="lw-map-line lw-map-line-files" />
                 <div className="lw-map-line lw-map-line-mail" />
+                  <div className="lw-map-line lw-map-line-auth" />
+                  <div className="lw-map-line lw-map-line-review" />
 
                 <div className="lw-map-node lw-map-db">
                   <span>STATE</span>
